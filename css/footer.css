@@ -1,0 +1,160 @@
+        @charset "UTF-8";
+        /* ??? */
+
+        /* ???? */
+
+        /* ????????? */
+
+        /* Fonts */
+
+        /* T */
+
+        /*
+* Noto Sans KR (korean) http://www.google.com/fonts/earlyaccess */
+
+        @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+        @font-face {
+            font-family: 'Noto Sans KR';
+            font-style: normal;
+            font-weight: 100;
+            src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format("opentype");
+        }
+
+        @font-face {
+            font-family: 'Noto Sans KR';
+            font-style: normal;
+            font-weight: 300;
+            src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format("opentype");
+        }
+
+        @font-face {
+            font-family: 'Noto Sans KR';
+            font-style: normal;
+            font-weight: 400;
+            src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format("opentype");
+        }
+
+        @font-face {
+            font-family: 'Noto Sans KR';
+            font-style: normal;
+            font-weight: 500;
+            src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format("opentype");
+        }
+
+        @font-face {
+            font-family: 'Noto Sans KR';
+            font-style: normal;
+            font-weight: 700;
+            src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format("opentype");
+        }
+
+        @font-face {
+            font-family: 'Noto Sans KR';
+            font-style: normal;
+            font-weight: 900;
+            src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format("opentype");
+        }
+
+        /*  */
+
+        @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i');
+
+        html,
+        body {
+            font-family: "Noto Sans KR", "Malgun Gothic", dotum, Helvetica, "Apple SD Gothic Neo", sans-serif !important;
+            height: 270px;
+        }
+
+        .footer {
+            min-width: 1200px;
+            margin: auto;
+            border-top: 1px solid #a0a0a0;
+            border-bottom: 1px solid #eee;
+            
+        }
+
+        a {
+            font-family: Noto Sans CJK KR Bold;
+            text-decoration: none;
+            color: #222;
+            font-size: 14px;
+            vertical-align: middle;
+        }
+        .footer .f_inner1{
+            width: 1200px;
+            margin: auto;
+        }
+        .footer .f_inner1 ul{
+            display: inline-block;
+        }
+        .footer .f_inner1 ul li{
+            display: inline-block;
+            height: 20px;
+            vertical-align: top;
+            padding: 0 8px;
+            list-style: none;
+        }
+        .footer .f_inner2{
+            width: 1200px;
+            margin: auto;
+            color: #444;
+        }
+        .footer .f_inner2 .f_logo img{
+            width: 140px;
+            margin-top: 54px;
+            border-top: 54px;
+            padding-left: 40px;
+        }
+        .footer .f_inner2 .f_logo{
+            display: inline-block;
+            vertical-align: top;
+            
+        }
+        .footer .fbbox{
+            height: 60px;
+            border-top: 1px solid #a0a0a0;
+            border-bottom: 1px solid #eee;
+        }
+        .footer .f_inner2 .addr{
+            float: left;
+        }
+        .footer .f_inner2 .addr p{
+            display: inline-block;
+            vertical-align: top;
+            color: #444;
+            font-size: 13px;
+            line-height: 20px;
+            word-spacing: 5px;
+            font-weight: normal;
+            padding-left: 80px;
+            margin-top: 20px;
+        }
+        .footer .f_inner2 .addr span{
+            color: #535353;
+            font-size: 12px;
+            display: block;
+            margin-top: 10px;
+        }
+        .f_txtbox2{
+            float: right;
+            color: #222;
+            font-family: "Noto Sans KR", "Malgun Gothic", ????, dotum, Helvetica, "Apple SD Gothic Neo", sans-serif;
+            margin-top: 28px;
+        }
+        .footer .f_inner2 .f_txtbox2 span:first-child{
+            font-size: 14px;
+            letter-spacing: 1.5px;
+        }
+        .footer .f_inner2 .f_txtbox2 p{
+            font-size: 30px;
+            letter-spacing: 0.5px;
+            margin: 0;
+            padding: 0;
+        }
+        .footer .f_inner2 .f_txtbox2 .cstxt2{
+            color: #444;
+            font-size: 14px;
+            line-height: 23px;
+            font-weight: normal;
+            font-family: "Noto Sans KR", "Malgun Gothic", ????, dotum, Helvetica, "Apple SD Gothic Neo", sans-serif;
+        }

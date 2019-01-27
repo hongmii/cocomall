@@ -1,0 +1,175 @@
+/* find_id */
+
+.jn_login .jn_container {
+    margin: 0 auto;
+    border: 1px #aaa solid;
+    width: 500px;
+    height: 470px;
+}
+* {
+    letter-spacing: -1.5px;
+}
+div {
+    display: block;
+}
+.jn_login .jn_head p {
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 40px 0 0 0;
+    text-align: center;
+}
+.jn_noto {
+    font-family: 'Noto Sans KR';
+    letter-spacing: -1px;
+}
+.jn_login .jn_head ul {
+    width: 420px;
+    }
+.jn_login .jn_head li:nth-child(-n+3) {
+    margin-right: 20px;
+}
+.jn_login .jn_head li:nth-child(1) {
+    color: #000000;
+    border-bottom: solid 1px;
+}
+.jn_login .jn_head li {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    color: #AAAAAA;
+    padding-bottom: 10px;
+}
+.jn_login .jn_body {
+    text-align: center;
+    margin: 0 40px 0 40px;
+}
+.jn_login {
+    min-width: 1500px;
+    padding-top: 168px;
+    padding-bottom: 100px;
+}
+.jn_login .jn_findId {
+    height: 315px;
+    position: relative;
+}
+.jn_login .jn_enter {
+    margin-top: 20px;
+    text-align: left;
+}
+.jn_login .jn_enter input {
+    height: 38px;
+    border: 1px solid #aaa;
+    font-size: 14px;
+    padding-left: 4.5%;
+}
+.jn_login .jn_enter input {
+    width: 95%;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.jn_login .jn_findId select {
+    padding-left: 4.5%;
+    height: 43px;
+    width: 125px;
+}
+
+.jn_login .jn_findId .jn_phone input {
+    width: 29%;
+}
+.jn_login .jn_findId .jn_alert {
+    margin: 20px 0 15px 0;
+    color: #5f5f5f;
+    display: none;
+    font-size: 12px;
+}
+.jn_login .jn_enter input {
+    height: 38px;
+    border: 1px solid #aaa;
+    font-size: 14px;
+    padding-left: 4.5%;
+}
+.jn_login .jn_findId>button {
+    position: absolute;
+    left: 50%;
+    margin: 0 0 0 -120px;
+    bottom: 40px;
+}
+.jn_btn_240 {
+    width: 240px;
+    height: 50px;
+    font-size: 16px;
+}
+.jn_btn_s_red {
+    border: none;
+    background-color: #000000;
+    color: #FFF;
+}
+.jn_login .jn_findId .jn_buttonDiv1 {
+    position: absolute;
+    bottom: 40px;
+    display: none;
+}
+.jn_login .jn_findId .jn_buttonDiv2 {
+    position: absolute;
+    bottom: 40px;
+    display: none;
+}
+.jn_login .jn_findId .jn_buttonDiv3 {
+    display: none;
+}
+.jn_login .jn_findId>button {
+    position: absolute;
+    left: 50%;
+    margin: 0 0 0 -120px;
+    bottom: 40px;
+}
+.jn_login .jn_findPwd {
+    position: relative;
+    height: 315px;
+    display: none;
+}
+.jn_login .jn_findPwd ul {
+    margin-top: 20px;
+}
+.jn_login .jn_findPwd li {
+    font-size: 13px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.jn_login .jn_findPwd .jn_customerNm {
+    width: 95%;
+}
+.jn_login .jn_findPwd div:nth-child(1) .jn_enter input:nth-child(n+2) {
+    width: 131px;
+}
+.jn_login .jn_findPwd div:nth-child(1) .jn_enter input:nth-child(n+2) {
+    width: 131px;
+}
+.jn_login .jn_findPwd select {
+    height: 40px;
+    width: 100px;
+}
+.jn_login .jn_findWay p:nth-child(2n-1) {
+    margin-right: 20px;
+}
+.jn_login .jn_findWay p:nth-child(1) {
+    font-weight: bold;
+}
+.jn_login .jn_findWay p {
+    font-size: 13px;
+    float: left;
+    padding: 15px 0 30px 0;
+    height: 20px;
+}
+.jn_login .jn_findId .jn_phone input {
+    width: 29%;
+}
+div {
+    display: block;
+}
+/* *{border:1px solid red;} */
+/* 
+button #idFind {
+    position: absolute;
+    top: 100px;
+} */

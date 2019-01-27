@@ -1,0 +1,174 @@
+
+#login .container {
+    margin: 0 auto;
+    border: 1px #aaa solid;
+    width: 500px;
+    height: 470px;
+}
+* {
+    letter-spacing: -1.5px;
+}
+div {
+    display: block;
+}
+#login .head p {
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 40px 0 0 0;
+    text-align: center;
+}
+.noto {
+    font-family: 'Noto Sans KR';
+    letter-spacing: -1px;
+}
+#login .head ul {
+    width: 420px;
+    }
+#login .head li:nth-child(-n+3) {
+    margin-right: 20px;
+}
+#login .head li:nth-child(1) {
+    color: #000000;
+    border-bottom: solid 1px;
+}
+#login .head li {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    color: #AAAAAA;
+    padding-bottom: 10px;
+}
+#login .body {
+    text-align: center;
+    margin: 0 40px 0 40px;
+}
+#login {
+    min-width: 1500px;
+    padding-top: 168px;
+    padding-bottom: 100px;
+}
+#login .findId {
+    height: 315px;
+    position: relative;
+}
+#login .enter {
+    margin-top: 20px;
+    text-align: left;
+}
+#login .enter input {
+    height: 38px;
+    border: 1px solid #aaa;
+    font-size: 14px;
+    padding-left: 4.5%;
+}
+#login .enter input {
+    width: 95%;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+#login .findId select {
+    padding-left: 4.5%;
+    height: 43px;
+    width: 125px;
+}
+
+#login .findId .phone input {
+    width: 29%;
+}
+#login .findId .alert {
+    margin: 20px 0 15px 0;
+    color: #5f5f5f;
+    display: none;
+    font-size: 12px;
+}
+#login .enter input {
+    height: 38px;
+    border: 1px solid #aaa;
+    font-size: 14px;
+    padding-left: 4.5%;
+}
+#login .findId>button {
+    position: absolute;
+    left: 50%;
+    margin: 0 0 0 -120px;
+    bottom: 40px;
+}
+.btn_240 {
+    width: 240px;
+    height: 50px;
+    font-size: 16px;
+}
+.btn_s_red {
+    border: none;
+    background-color: #000000;
+    color: #FFF;
+}
+#login .findId .buttonDiv1 {
+    position: absolute;
+    bottom: 40px;
+    display: none;
+}
+#login .findId .buttonDiv2 {
+    position: absolute;
+    bottom: 40px;
+    display: none;
+}
+#login .findId .buttonDiv3 {
+    display: none;
+}
+#login .findId>button {
+    position: absolute;
+    left: 50%;
+    margin: 0 0 0 -120px;
+    bottom: 40px;
+}
+#login .findPwd {
+    position: relative;
+    height: 315px;
+    display: none;
+}
+#login .findPwd ul {
+    margin-top: 20px;
+}
+#login .findPwd li {
+    font-size: 13px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+#login .findPwd .customerNm {
+    width: 95%;
+}
+#login .findPwd div:nth-child(1) .enter input:nth-child(n+2) {
+    width: 131px;
+}
+#login .findPwd div:nth-child(1) .enter input:nth-child(n+2) {
+    width: 131px;
+}
+#login .findPwd select {
+    height: 40px;
+    width: 100px;
+}
+#login .findWay p:nth-child(2n-1) {
+    margin-right: 20px;
+}
+#login .findWay p:nth-child(1) {
+    font-weight: bold;
+}
+#login .findWay p {
+    font-size: 13px;
+    float: left;
+    padding: 15px 0 30px 0;
+    height: 20px;
+}
+#login .findId .phone input {
+    width: 29%;
+}
+div {
+    display: block;
+}
+/* *{border:1px solid red;} */
+/* 
+button #idFind {
+    position: absolute;
+    top: 100px;
+} */

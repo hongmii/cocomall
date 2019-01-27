@@ -1,0 +1,173 @@
+#login {
+    padding-top: 55px;
+    padding-bottom: 100px;
+}
+#login .container {
+    margin: 0 auto;
+    border: 1px #aaa solid;
+    width: 500px;
+    height: 470px;
+}
+* {
+    font-family: 'Malgun Gothic', 'Noto Sans KR';
+    letter-spacing: -1.5px;
+    color: #333;
+    
+}
+#login .head p {
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 40px 0 0 0;
+    text-align: center;
+}
+.noto {
+    font-family: 'Noto Sans KR';
+    letter-spacing: -1px;
+}
+#login .head ul {
+    width: 420px;
+    margin: 30px 0 0px 40px;
+}
+#login .head li {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+#login .head li:nth-child(-n+3) {
+    margin-right: 20px;
+}
+#login .head ul {
+    width: 420px;
+    margin: 30px 0 0px 40px;
+}
+#login .enter input {
+    height: 38px;
+    border: 1px solid #aaa;
+    font-size: 14px;
+    padding-left: 4.5%;
+}
+#login .enter input {
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+#login .findPwd div:nth-child(1) .enter input:nth-child(n+2) {
+    width: 131px;
+}
+#login .findPwd .customerNm {
+    width: 95%;
+}
+#login .enter input {
+    height: 38px;
+    border: 1px solid #aaa;
+    font-size: 14px;
+    padding-left: 4.5%;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+#login .findPwd select {
+    height: 42px;
+    width: 100px;
+}
+.frt {
+    float: right !important;
+}
+#login .findPwd button {
+    position: absolute;
+    margin: 0 0 0 -120px;
+    bottom: 40px;
+}
+.btn_240 {
+    width: 240px;
+    height: 50px;
+    font-size: 16px;
+}
+.btn_s_red {
+    border: none;
+    background-color: #000;
+    color: #FFF;
+}
+#login .findPwd button>span {
+    color: white;
+    font-size: 13px;
+}
+#popup_overlay { 
+		background-color: #000;
+		bottom: 0;
+		left: 0;
+		opacity: 0.5;
+		filter: alpha(opacity = 60);	
+		position: fixed;
+		right: 0;
+		top: 0;
+		z-index: 9;
+		display: none;
+	}
+#login .enter {
+margin-top: 20px;
+text-align: left;
+}
+.frt {
+    float: right !important;
+}
+#login .findWay p:nth-child(2n-1) {
+    margin-right: 20px;
+}
+#login .findWay p:nth-child(1) {
+    font-weight: bold;
+}
+#login .findWay p {
+    font-size: 13px;
+    float: left;
+    padding: 15px 0 30px 0;
+    height: 20px;
+}
+#login .findPwd {
+    position: relative;
+    height: 315px;
+    display: none;
+}
+#login .findPwd ul {
+    margin-top: 20px;
+}
+#login .findPwd li {
+    font-size: 13px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+#login .enter input {
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+#login .findWay p {
+    font-size: 13px;
+    float: left;
+    padding: 15px 0 30px 0;
+    height: 20px;
+}
+ul, li, dl, dt, dd {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#login .body {
+    text-align: center;
+    margin: 0 40px 0 40px;
+}
+p, div, h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+#login .findPwd .email {
+    margin-right: 13px;
+    background: url(https://www.iloom.com/img/front/account/@.png) no-repeat 2% 65%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* appearance: none; */
+    padding-left: 20px;
+    width: 126px;
+}
+#login .findWay p:nth-child(2n) {
+    margin-right: 5px;
+    cursor: pointer;
+}

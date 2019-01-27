@@ -1,0 +1,232 @@
+   @charset "UTF-8";
+/* Į�� */
+/* ���� */
+/* ��Ʈ������ */
+/* Fonts */
+/* T */
+
+/*
+* Noto Sans KR (korean) http://www.google.com/fonts/earlyaccess */
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 100; src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 300; src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 400; src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 500; src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 700; src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 900; src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format("opentype"); }
+
+/*  */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i');
+
+html, body { font-family: "Noto Sans KR", "Malgun Gothic", ����, dotum, Helvetica, "Apple SD Gothic Neo", sans-serif !important; }
+
+@media(min-width:1201px){
+
+}   
+
+   @media(max-width:1200px){
+
+   }
+   @media(max-width:768px){
+
+   }
+
+
+   
+   
+    /* *{
+        margin: 0;
+        padding: 0;
+        border: 1px solid red;
+    } */
+    .main_img{
+        height: 679px;
+        width: 1900px;
+        margin-bottom: 73px; 
+    }
+    .content{
+        width: 100%;
+        margin-top: 70px;
+    }
+    .text_area{
+        width: 1200px;
+        border-bottom: 1px solid #ced0d1;
+        margin: auto;
+        
+    }
+    .text_area p{
+        font-size: 22px;
+        font-family: 'Montserrat-SemiBold'; 
+        color: #000;
+        font-weight: bold;
+        display: inline-block;
+        letter-spacing: -1px;
+     
+    }
+    .text_area span{
+        font-size: 14px;
+        color: #b5b5b5;
+        display: inline-block;
+        margin-left: 10px;
+        position: relative;
+        top: -3px;
+        left: 0;
+    }
+    .product_area{
+        width: 1200px;
+        margin: auto;
+        position: relative;
+        margin-top: 27px;
+        margin-bottom: 155px;
+    }
+    .product_area .BN_box{
+        width: 820px;
+        height: 481px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-left: 1px solid #bfb9b4;
+        border-right: 1px solid #bfb9b4;
+        border-bottom: 1px solid #bfb9b4;
+    }
+    .product_area .BN_box .best_new_box{
+        width: 820px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .product_area .BN_box .best_new_box a{
+        display: inline-block;
+    }
+    .best_new_box .best{
+        color: #777;
+        width: 410px;
+        height: 42px;
+        line-height: 42px;
+        font-size: 14px;
+        margin-left: -1px;
+        text-align: center;
+        border-top: 1px solid #bfb9b4;
+        position: left;
+    }
+    .best_new_box .new{
+        color: #777;
+        width: 410px;
+        height: 42px;
+        line-height: 42px;
+        font-size: 14px;
+        margin-left: -1px;
+        text-align: center;
+        border-top: 1px solid #bfb9b4;
+        position: absolute;
+    }
+    .product_area .discount_img{
+        width: 341px;
+        height: 481px;
+        position: left;
+    }
+    .product_area .BN_box .best_product_img{
+        width: 820px;
+        position: relative;
+    }
+    
+    .product_area .BN_box .best_product_img ul{
+        margin: 115px auto 10px auto;
+        padding-left: 17px;
+        padding-right: 10px;
+    }
+    .product_area .BN_box .best_product_img li{
+        display: inline-block;
+        text-align: center;
+        padding: 0 1%;
+        vertical-align: top;
+    }
+    .product_area .BN_box .best_product_img a.pic{
+        display: block;
+        width: 240px;
+        height: 240px;
+        border: 1px solid #aaaaaa;
+        margin-bottom: 20px;
+        position: relative;
+        top: 0;
+        left: 0; 
+    }
+    .product_area .best_product_img span{
+        display: block;
+        padding: 5px;
+	height: 13px;
+	font-family: NotoSansCJKkr-DemiLight;
+	font-size: 13px;
+	letter-spacing: 0px;
+	color: #555555;
+    }
+    .design_area{
+        width: 1200px;
+        margin: 27px auto 25px auto;
+        font-family: 'Montserrat-SemiBold'; 
+    }
+    .design_area .more_view1{
+        width: 597px;
+        height: 298px;
+        float: left;
+        position: relative;
+    }
+    .design_area .more_view2{
+        float: right;
+        width: 597px;
+        height: 602px;
+    }
+    .design_area .more_view3{
+        width: 597px;
+        height: 298px;
+        margin-top: 7px;
+        float: left;
+        position: relative;
+    }
+    .insta{
+        width: 1920px;
+        height: 490px;
+        background-color: #f0f0f0;
+        margin-top: 785px;
+        position: relative;
+        margin-bottom: 111px;
+    }
+    .insta img{
+        width: 282px;
+        height: 282px;
+    }
+    .insta_images{
+        padding-top: 54px;
+        display: inline-block;
+    }
+    .insta .insta_img1{
+        padding-left: 359px;
+        padding-right: 22px;
+    }
+    .insta .insta_img2{
+        padding-right: 22px;
+    }
+    .insta .insta_img3{
+        padding-right: 22px;
+    }
+    .insta span.read_more{
+        padding-top: 420px;
+        margin-left: 924px;
+        border-bottom: 1px solid #000;
+        font-family: Noto Sans CJK KR Light;
+    }
+    a{
+        text-decoration: none;
+        color: #333;
+    }
+    .insta_txt{
+        color: #333;
+        font-size: 22px;
+        font-family: 'Montserrat-Medium;', sans-serif;
+        text-align: center;
+        padding-top: 61px;
+    }
+    #tabar{
+        border-top: 1px solid #000;
+    }
+    

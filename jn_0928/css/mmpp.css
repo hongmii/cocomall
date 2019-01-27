@@ -1,0 +1,361 @@
+
+#content.size1200 {
+width: 1200px;
+max-width: none;
+margin: 0 auto;
+}
+#content .cont_h2tit01.eng {
+padding-top:50px;
+/* font-family: 'tdDot','naMj',serif; */
+font-size: 32px;
+line-height: 25px;
+font-weight: normal;
+letter-spacing: 0;
+}
+#content.size1200 h2 {
+height: 60px;
+text-align: center;
+}
+.bgBox {
+width: 100%;
+min-height: 90px;
+margin-bottom: 60px;
+background: #f7f7f7;
+border-top: 1px solid #f0f0f0;
+border-bottom: 1px solid #f0f0f0;
+}
+.myInfo {
+position: relative;
+}
+.myInfo .gradeArea {
+position: absolute;
+left: 30px;
+top: 20px;
+overflow: hidden;
+}
+.myInfo .gradeArea .silver {
+background-position: -150px -526px;
+}
+.myInfo strong, .myInfo .diamond, .myInfo .platinum, .myInfo .gold, .myInfo .silver {
+width: 50px;
+height: 50px;
+text-indent: -9999em;
+background: url(../../../images/common/iconBg.png) repeat;
+display: inline-block;
+float: left;
+}
+strong, th, h1, h2, h3, h4, h5 {
+font-weight: normal;
+}
+.myInfo .gradeArea>div p {
+margin: 4px 0;
+color: #212121;
+letter-spacing: 0;
+text-transform: uppercase;
+/* font-family: 'Georgia','naMj',serif; */
+font-size: 18px;
+line-height: 20px;
+font-weight: normal;
+}
+.myInfo .gradeArea>div a {
+position: relative;
+display: block;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+padding: 0 20px 0 10px;
+background: #666;
+font-size: 11px;
+color: #fff;
+height: 22px;
+line-height: 22px;
+text-decoration: none;
+}
+.myInfo .itemArea {
+position: absolute;
+right: 30px;
+top: 20px;
+overflow: hidden;
+}
+.myInfo .itemArea>div.pointArea {
+padding-left: 62px;
+min-width: 88px;
+position: relative;
+}
+.myInfo .itemArea>div {
+float: left;
+}
+.myInfo .itemArea>div.couponArea {
+width: 115px;
+margin-left: 35px;
+}
+
+.layer-container {
+display: none;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: none;
+z-index: 9001;
+overflow-x: hidden;
+overflow-y: auto;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+margin-right: -18px;
+}
+.layer-container>div {
+display: none;
+position: relative;
+margin: 50px auto;
+}
+.division {
+width: 100%;
+}
+.division .lnb {
+float: left;
+width: 170px;
+}
+.division .lnb>dl {
+padding: 0 10px 40px 20px;
+border: 1px solid #f0f0f0;
+}
+.division .lnb>dl dt {
+margin-top: 36px;
+color: #212121;
+font-size: 13px;
+font-weight: bold;
+}
+.division .lnb>dl dt {
+margin-top: 36px;
+color: #212121;
+font-size: 13px;
+font-weight: bold;
+}
+.division .cont {
+float: right;
+width: 1000px;
+}
+#content h3, h3.cont_tit01, .titNm {
+color: #212121;
+letter-spacing: -1px;
+/* font-family: 'naMj',serif; */
+font-size: 18px;
+font-weight: bold;
+}
+.division h3 {
+position: relative;
+vertical-align: middle;
+}
+#content h3, h3.cont_tit01, .titNm {
+color: #212121;
+letter-spacing: -1px;
+/* font-family: 'naMj',serif; */
+font-size: 18px;
+font-weight: bold;
+}
+.maT60 {
+margin-top: 60px!important;
+}
+.recent-goods {
+margin-top: 20px;
+border-top: 1px solid #f0f0f0;
+padding-top: 20px;
+}
+.halfCont {
+margin-top: 57px;
+overflow: hidden;
+}
+.halfCont .recentCont {
+width: 388px;
+float: left;
+}
+.wish-list {
+float: right;
+width: 592px;
+}
+#content h3, h3.cont_tit01, .titNm {
+color: #212121;
+letter-spacing: -1px;
+/* font-family: 'naMj',serif; */
+font-size: 18px;
+font-weight: bold;
+}
+.wish-list .wish-list__body {
+margin-top: 16px;
+border-top: 1px solid #f0f0f0;
+padding-top: 20px;
+}
+.wish-list .goods-item:first-child {
+margin-left: 0;
+}
+.wish-list .goods-item {
+width: 184px;
+/* margin-left: 20px; */
+}
+.goods__cont {
+overflow: hidden;
+display: block;
+position: relative;
+}
+.goods__img {
+display: block;
+overflow: hidden;
+position: relative;
+}
+.goods__tag {
+position: absolute;
+left: 0;
+bottom: 0;
+width: 100%;
+padding-bottom: 10px;
+font-size: 0;
+}
+.goods__over-info {
+position: absolute;
+left: 0;
+top: 100%;
+width: 100%;
+height: 76px;
+padding-top: 16px;
+font-size: 0;
+background: rgba(255,255,255,.8);
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+element.style {
+transform: translateY(0%);
+}
+.goods__info {
+display: block;
+padding: 13px 0 0;
+}
+.wish-list .goods-item:first-child {
+margin-left: 0;
+}
+.wish-list .goods-item {
+width: 184px;
+/* margin-left: 20px; */
+}
+.goods-item {
+/* position: relative; */
+/* float: left; */
+text-align: center;
+}
+.halfCont {
+margin-top: 57px;
+overflow: hidden;
+}
+.division .lnb>dl {
+padding: 0 10px 40px 20px;
+border: 1px solid #f0f0f0;
+}
+.division .lnb>dl {
+padding: 0 10px 40px 20px;
+border: 1px solid #f0f0f0;
+}
+.division .lnb>dl dd ul li {
+/* margin-top: 5px; */
+line-height: 18px;
+}
+li, menu {
+list-style: none;
+}
+.division .lnb>dl dd ul li a {
+color: #212121;
+font-size: 11px;
+}
+
+a {
+padding-top:10px;
+outline: none;
+/* color: #212121; */
+text-decoration: none;
+}
+.division .lnb>dl dd ul {
+margin-top: 10px;
+}
+.division .lnb>dl dd ul li:first-child {
+margin-top: 0;
+}
+.division .lnb>dl dd ul {
+margin-top: 10px;
+padding-left:0px;
+padding-right: 25px;
+}
+#content h3, h3.cont_tit01, .titNm {
+color: #212121;
+letter-spacing: -1px;
+/* font-family: 'naMj',serif; */
+font-size: 18px;
+font-weight: bold;
+}
+.division h3 {
+position: relative;
+vertical-align: middle;
+}
+.division h3 .btnMore.bgNo {
+padding-right: 0;
+background: none;
+}
+.division h3 .btnMore {
+font-size: 11px;
+/* font-family: 나눔바른고딕, NanumBarunGothic, 맑은고딕, "Malgun Gothic", 돋움, Dotum, "Apple SD Gothic Neo", sans-serif; */
+font-weight: normal;
+letter-spacing: 0px;
+display: inline-block;
+position: absolute;
+right: 0px;
+top: 0px;
+text-transform: uppercase;
+padding: 5px 8px 5px 0px;
+}
+.nodata {
+height: 130px;
+color: #999;
+text-align: center;
+line-height: 130px;
+}
+table {
+width: 100%;
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+.myInfo .gradeArea>div {
+margin-left: 70px;
+}
+.tbl .head thead th, .tbl .head tbody .theadType th, .tbl .head tbody .theadType td {
+padding: 12px 0;
+color: #212121;
+background: #f7f7f7;
+border-bottom: 1px solid #f0f0f0;
+}
+th, td {
+text-align: center;
+vertical-align: middle;
+}
+th, td {
+/* text-align: center; */
+vertical-align: middle;
+}
+.tbl .nodata td {
+height: 130px;
+padding: 0!important;
+color: #999;
+line-height: 130px;
+}
+.tbl caption {
+display: none;
+}
+caption, legend {
+position: absolute;
+top: -9999px;
+left: -9999px;
+font-size: 0;
+line-height: 0;
+}
+caption {
+text-align: left;
+}

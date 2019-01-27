@@ -1,0 +1,204 @@
+
+	
+<body>
+	<div id="content" class="size1200">
+
+            <h2 class="cont_h2tit01 eng"><a href="https://www.sivillage.com/mypage/mypageMain">마이 페이지</a></h2>
+			<div class="bgBox">
+			
+				<!-- MEMBER(멤버쉽회원), EMAIL(간편회원), SNS(SNS회원) -->
+				<div class="myInfo">
+					<div class="gradeArea" id="gradeArea"><a href="/mypage/sivillagerInformation"><strong class="silver">SILVER</strong></a><div><p>SILVER</p><a href="#none" onclick="showSIVLayer('#grade-info')">다음달 예상등급</a></div></div>
+					<div class="itemArea">
+						<div class="pointArea">
+							<strong>POINT</strong>
+							<em>포인트</em>
+							<p class="count" id="pointArea"><a href="/mypage/siPoint" class="num">0</a><span class="eng">P</span></p>
+						</div>
+						<div class="couponArea">
+							<strong>COUPON</strong>
+							<em>쿠폰</em>
+							<p class="count" id="couponArea"><a href="/mypage/siCoupon" class="num">23</a><span class="kor">장</span></p>
+						</div>
+					</div>
+				</div>
+				</div>
+			
+			
+			<div class="layer-container">
+		        <!-- 2017-07-12  다음달 예상 등급 안내 레이어 -->
+		        <div class="layerPop" id="grade-info">
+		            <div class="popArea">
+		                <div class="popHead">
+		                    <h4>다음달 예상 등급 안내</h4>
+		                </div>
+		                <div class="popContent">
+		                    <div class="grade-info">
+		                        <div class="grade-info-desc" id="gradeInfo"><p>2017년 7월 ~ 현재 기준으로,<br> 다음달 예상등급은 <strong>"SILVER"</strong> 입니다.</p><p><strong>500,000원</strong>을 더 결제하시면,<br> 다음달 <strong>GOLD</strong> 혜택을 받아보실 수 있습니다.</p></div>
+		                        <ul class="dot-list">
+		                            <li>최근 12개월 간 구매금액(온/오프라인 합산)을 기준으로, 매월 1일 등급이 산정됩니다. </li>
+		                            <li>주문건의 취소/환불 발생 시 예상등급과 실제등급은 차이가 있을 수 있습니다.</li>
+		                            <li>등급별 혜택은 승급 시 1회만 지급되며, 유지/강급 시에는 지급되지 않습니다.</li>
+		                        </ul>
+		                        <a class="btnD black raised" href="/mypage/sivillagerInformation">등급 혜택/산정기준 보기</a>
+		                    </div>
+		                </div>
+		                <a href="#" class="popClose">닫기</a>
+		            </div>
+		        </div>
+		        <!-- //2017-07-12  다음달 예상 등급 안내 레이어-->
+	    	</div>
+<!-- .division -->
+		<!-- D: .lnb가 있는 2단으로 나뉜경우 div에 클래스 .division을, 1단일 경우 div에 클래스 .section을 적용해주세요 -->
+		<div class="division">
+			<div class="lnb">
+                    <dl>
+                    	<dt>나의 정보관리</dt>
+                        <dd>
+                            <ul>
+                                <!-- D: 선택되었을때 li에 클래스 on을 추가해주세요 -->
+                                <li><a href="/mypage/myinfoPwdConfirm">개인정보 수정</a></li>
+                                <li><a href="/mypage/changePwd">비밀번호 변경</a></li>
+                                <li><a href="/mypage/deliveryAccountMgmt">배송지/환불계좌 관리</a></li>
+                                <li><a href="/mypage/withdrawRequest">회원탈퇴</a></li>
+                            </ul>
+                        </dd>
+                        <!-- 회원과 비회원 구분에 따라 링크 변경 -->
+                        <!-- // 회원과 비회원 구분에 따라 링크 변경 -->
+                        <dt>나의 쇼핑정보</dt>
+                        <dd>
+                            <ul>
+								<li><a href="/mypage/orderList">주문/배송조회</a></li>
+								<li><a href="/mypage/offOrderList">오프라인 주문 내역 조회</a></li>
+								<li><a href="/mypage/claimList">취소/반품/교환 조회</a></li>
+                                <li><a href="/mypage/orderReceiptList">증빙서류 발급</a></li>
+                                </ul>
+                        </dd>
+                        <dt>나의 혜택정보</dt>
+                        <dd>
+                            <ul>
+                                <li><a href="/mypage/siPoint">Point 내역</a></li>
+                                <li><a href="/mypage/siCoupon">쿠폰 내역</a></li>
+                                <li><a href="/mypage/freeRepairCouponList">무료수선쿠폰 내역</a></li>
+                            </ul>
+                        </dd>
+                        <dt>나의 관심정보</dt>
+                        <dd>
+                            <ul>
+                                <li><a href="/mypage/getProductWishList">MY PICK</a></li>
+                                <li><a href="/mypage/myRestockItemList">재입고 알림신청 내역</a></li>
+                                <li><a href="/mypage/interestClubList">관심 클럽 설정</a></li>
+                            </ul>
+                        </dd>
+                        
+                    </dl>
+                </div><div class="cont">
+				<h3>최근 주문 상품<span class="recent">(최근 1개월)</span><a href="/mypage/orderList" class="btnMore bgNo">more</a></h3>
+				<!-- .deliveryPrd -->
+				<div class="deliveryPrd">
+					<!-- .tbl -->
+					<div class="tbl tblBasic">
+						<table class="head" summary="배송 중 상품 목록">
+							<caption>배송 중 상품 목록</caption>
+							<colgroup>
+								<col width="*">
+								<col width="15%">
+								<col width="15%">
+							</colgroup>
+							<thead>
+								<tr>
+									<th scope="col">상품정보</th>
+									<th scope="col">결제금액</th>
+									<th scope="col">진행상태</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="nodata"><td colspan="3">현재 진행중인 주문/배송 상품이 없습니다.</td></tr>
+								</tbody>
+						</table>
+					</div>
+					<!-- // .tbl head -->
+				</div>
+				<!-- // .deliveryPrd -->
+
+				<h3 class="maT60">최근 본 상품</h3>
+				<!-- del : 최근 1개월 문구 삭제 2016.05.23 -->
+             	<!-- recent-goods [renewal] -->
+				<div class="recentPrd recent-goods" id="recentProductLayer"><div class="nodata border">
+	최근 본 상품이 없습니다.
+</div>
+</div>
+                <!-- //recent-goods [renewal] -->
+
+				<!-- halfCont [renewal] -->
+				<div class="halfCont">
+					
+					<div class="wish-list">
+	                    <h3>위시리스트<a href="/mypage/getProductWishList" class="btnMore bgNo">more</a></h3>
+	                    <div class="wish-list__body">
+	                        <ul class="goods-list js-goods-over">
+								<li class="goods-item">
+									<div class="goods__cont">
+										<div class="goods__img thumb--full">
+											<a href="/product/productDetail?productNo=01P0000208420" class="thumb">
+												
+<!-- 기본 경로는 아래와 같음 -->
+
+
+		<!-- 상품상세이미지 -->
+		
+			
+		<!-- 노 이미지 태그가 존재하지 않음 -->
+		<!-- https://img.sivillage.com:443/files/product/01/P0000/20/84/20/01P0000208420.jpg?RS=184&SP=1 -->
+		<img src="https://img.sivillage.com:443/files/product/01/P0000/20/84/20/01P0000208420.jpg?RS=184&amp;SP=1" onerror="this.src='/images/noImg/noImg_190.jpg'; this.className='no_img'" alt="" class="">
+	
+	
+</a>
+											<div class="goods__tag" style="transform: translateY(0%);">
+                                                </div>
+
+											<div class="goods__over-info" style="transform: translateY(0%);">
+												<div class="item__size">
+												</div>
+												<div class="item__bt" name="prdIcon">
+													<span class="bt--preview">
+														<a href="#none;" class="search" data-product-no="01P0000208420" data-product-sct="LI">
+															<span class="blind">미리보기</span>
+														</a>
+													</span>
+													<span class="bt--whish-list bt--whish-list--active">
+														<a href="#none" id="01P0000208420_like" class="like active" data-product-no="01P0000208420" data-like-flag="Y">
+															<span class="blind">위시리스트 제거</span>
+														</a>
+													</span>
+												</div>
+											</div>
+										</div>
+										<div class="goods__info">
+											<div class="item__name">
+												<span class="name--brand">JAJU</span>
+												<a href="/product/productDetail?productNo=01P0000208420" class="name--goods">공부 벽시계_내추럴</a>
+											</div>
+											<div class="item__price">
+												
+
+<div class="item__price">
+	
+	<span class="price--ing">
+		<span class="blind">판매가</span>
+		<span>19,900원</span>
+	</span>
+	
+	
+</div></div>
+										</div>
+									</div>
+								</li>
+								</ul>
+							</div>
+					</div>
+					<!-- //halfCont [renewal] -->
+				</div>
+				<!-- // .halfCont -->
+
+				</body></html>

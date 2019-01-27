@@ -1,0 +1,1765 @@
+
+
+/* css합치기> */
+
+/* < findid, join2, login3, mypage4, mmpp5, pwfind6 > 
+
+                                        -한지나 */
+
+
+
+/* find_id */
+
+.jn_login .jn_container {
+    margin: 0 auto;
+    border: 1px #aaa solid;
+    width: 500px;
+    height: 400px;
+}
+* {
+    letter-spacing: -1.5px;
+}
+div {
+    display: block;
+}
+.jn_login .jn_head p {
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 40px 0 30px 0;
+    text-align: center;
+}
+.jn_noto {
+    font-family: 'Noto Sans KR';
+    letter-spacing: -1px;
+}
+.jn_login .jn_head ul {
+    width: 420px;
+    }
+.jn_login .jn_head .jn_li:nth-child(-n+3) {
+    margin-right: 20px;
+    margin-left: 50px;
+}
+.jn_login .jn_head .jn_lii:nth-child(-n+3) {
+    margin-right: 20px;
+    
+}
+.jn_login .jn_head li:nth-child(1) {
+    color: #000000;
+    border-bottom: solid 1px;
+}
+.jn_login .jn_head li {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    color: #AAAAAA;
+    padding-bottom: 10px;
+}
+.jn_login .jn_body {
+    text-align: center;
+    margin: 0 40px 0 40px;
+}
+.jn_login {
+    min-width: 1500px;
+    padding-top: 168px;
+    padding-bottom: 100px;
+}
+.jn_login .jn_findId {
+    height: 215px;
+    position: relative;
+}
+.jn_login .jn_enter {
+    margin-top: 20px;
+    text-align: left;
+}
+.jn_login .jn_enter input {
+    height: 38px;
+    border: 1px solid #aaa;
+    font-size: 14px;
+    padding-left: 4.5%;
+}
+.jn_login .jn_enter input {
+    width: 95%;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.jn_login .jn_findId select {
+    padding-left: 4.5%;
+    height: 43px;
+    width: 125px;
+}
+
+.jn_login .jn_findId .jn_phone input {
+    width: 29%;
+}
+.jn_login .jn_findId .jn_alert {
+    margin: 20px 0 15px 0;
+    color: #5f5f5f;
+    display: none;
+    font-size: 12px;
+}
+.jn_login .jn_enter input {
+    height: 38px;
+    border: 1px solid #aaa;
+    font-size: 14px;
+    padding-left: 4.5%;
+}
+.jn_login .jn_findId>button {
+    position: absolute;
+    left: 50%;
+    margin: 0 0 0 -120px;
+    bottom: 40px;
+}
+.jn_btn_240 {
+    width: 240px;
+    height: 50px;
+    font-size: 16px;
+}
+.jn_btn_s_red {
+    border: none;
+    background-color: #000000;
+    color: #FFF;
+}
+.jn_login .jn_findId .jn_buttonDiv1 {
+    position: absolute;
+    bottom: 40px;
+    display: none;
+}
+.jn_login .jn_findId .jn_buttonDiv2 {
+    position: absolute;
+    bottom: 40px;
+    display: none;
+}
+.jn_login .jn_findId .jn_buttonDiv3 {
+    display: none;
+}
+.jn_login .jn_findId>button {
+    position: absolute;
+    left: 50%;
+    margin: 0 0 0 -120px;
+    bottom: 40px;
+}
+.jn_login .jn_findPwd {
+    position: relative;
+    height: 315px;
+    display: none;
+}
+.jn_login .jn_findPwd ul {
+    margin-top: 20px;
+}
+.jn_login .jn_findPwd li {
+    font-size: 13px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.jn_login .jn_findPwd .jn_customerNm {
+    width: 95%;
+}
+.jn_login .jn_findPwd div:nth-child(1) .jn_enter input:nth-child(n+2) {
+    width: 131px;
+}
+.jn_login .jn_findPwd div:nth-child(1) .jn_enter input:nth-child(n+2) {
+    width: 131px;
+}
+.jn_login .jn_findPwd select {
+    height: 40px;
+    width: 100px;
+}
+.jn_login .jn_findWay p:nth-child(2n-1) {
+    margin-right: 20px;
+}
+.jn_login .jn_findWay p:nth-child(1) {
+    font-weight: bold;
+}
+.jn_login .jn_findWay p {
+    font-size: 13px;
+    float: left;
+    padding: 15px 0 30px 0;
+    height: 20px;
+}
+.jn_login .jn_findId .jn_phone input {
+    width: 29%;
+}
+div {
+    display: block;
+}
+/* *{border:1px solid red;} */
+/* 
+button #idFind {
+    position: absolute;
+    top: 100px;
+} */
+
+
+
+/* join */
+/* join */
+/* join */
+/* join */
+/* join */
+/* join */
+/* join */
+/* join */
+/* join */
+/* join */
+
+@import url("common.css");
+
+
+.jn2_info .jn2_container {
+    margin: 0 auto;
+    border: 1px #aaa solid;
+    width: 500px;
+    height: 825px;
+}
+
+
+.jn2_info .jn2_head {
+    border-bottom: 1px solid #EEEEEE;
+    text-align: center;
+}
+
+.jn2_info .jn2_head p {
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 40px 0 0 0;
+}
+
+.jn2_info .jn2_head ul {
+    width: 420px;
+    margin: 40px 0 12px 40px;
+}
+
+.jn2_info .jn2_head li:nth-child(-n+3) {
+    margin-right: 65px;
+}
+
+.jn2_info .jn2_head li {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.jn2_info .jn2_body {
+    margin: 0 40px 0 40px;
+    height: 675px;
+    position: relative;
+}
+
+.jn2_info .jn2_insert {
+    padding-top: 40px;
+}
+
+.jn2_info .jn2_insert .jn2_id input {
+    width: 131px;
+}
+
+.jn2_info .jn2_insert input {
+    height: 38px;
+    border: 1px solid #aaa;
+    font-size: 14px;
+    padding-left: 0px;
+}
+
+.jn2_info .jn2_insert .jn2_email {
+    margin-right: 13px;
+    background: url(https://www.iloom.com/img/front/account/@.png) no-repeat 2% 65%;
+    -webkit-appearance: none;
+}
+
+.jn2_info .jn2_insert select {
+    padding-left: 10px;
+    font-size: 14px;
+    height: 40px;
+    width: 100px;
+    background: url(https://www.iloom.com/img/front/account/selectDown.png) no-repeat 95% 50%;
+    -webkit-appearance: none;
+}
+
+.jn2_info .jn2_insert .jn2_id p {
+    cursor: pointer;
+    font-size: 14px;
+    color: #000;
+    border-bottom: 1px solid #000;
+    padding: 10px 2px 6px 0;
+}
+
+.jn2_frt {
+    float: right !important;
+
+}
+
+.jn2_info .jn2_insert .jn2_name input {
+    width: 403px;
+    margin-bottom: 10px;
+}
+
+.jn2_info .jn2_insert .jn2_pwd {
+    margin-top: 50px;
+}
+
+button,
+input {
+    overflow: visible;
+}
+
+.jn2_info .jn2_insert .jn2_name {
+    margin-top: 10px;
+}
+
+.jn2_info .jn2_insert .jn2_pwd div {
+    border: 1px solid #aaa;
+    margin-bottom: 0px;
+}
+
+.jn2_info .jn2_insert .jn2_pwd input {
+    width: 140px;
+    margin-bottom: 0px;
+    border: none;
+}
+
+
+.jn2_info .jn2_insert .jn2_pwd div>p {
+    float: right;
+    padding: 12px 5px 0 0;
+    color: #000;
+}
+
+.jn2_info .jn2_insert .jn2_pwd p {
+    font-size: 13px;
+    color: #aaa;
+}
+
+.jn2_info .jn2_insert .jn2_pwd div {
+    border: 1px solid #aaa;
+    margin-bottom: 10px;
+}
+
+.jn2_info .jn2_insert .jn2_pwd div {
+    border: 1px solid #aaa;
+    margin-bottom: 10px;
+}
+
+
+.jn2_info .jn2_insert select {
+    padding-left: 10px;
+    font-size: 14px;
+    height: 40px;
+    width: 100px;
+    background: url(https://www.iloom.com/img/front/account/selectDown.png) no-repeat 95% 50%;
+    -webkit-appearance: none;
+}
+
+.jn2_info .jn2_insert {
+    padding-top: 40px;
+}
+
+.jn2_info .jn2_body {
+    margin: 0 40px 0 40px;
+    height: 675px;
+    position: relative;
+}
+
+.jn2_info .jn2_insert .jn2_date ul {
+    display: inline;
+    /* margin-left: 15px; */
+}
+
+.jn2_info .jn2_insert .jn2_date li {
+    font-size: 13px;
+    display: inline;
+    margin-right: 5px;
+    vertical-align: middle;
+
+}
+
+ul,
+li,
+dl,
+dt,
+dd {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.jn2_info .jn2_insert .jn2_date .jn2_radio {
+    height: auto;
+}
+
+.jn2_info .jn2_button {
+    bottom: 40px;
+    /* position: absolute; */
+}
+
+.jn2_info .jn2_button button:nth-child(1) {
+    margin-right: 5px;
+}
+
+.jn2_btn_205 {
+    width: 205px;
+    height: 50px;
+    font-size: 16px;
+}
+
+.jn2_btn_s_gray {
+    border: none;
+    background-color: #63666A;
+    color: #FFF;
+}
+
+.jn2_btn_205 {
+    width: 205px;
+    height: 50px;
+    font-size: 16px;
+}
+
+.jn2_btn_s_red {
+    border: none;
+    background-color: #000;
+    color: #FFF;
+}
+
+.jn2_info .jn2_insert .jn2_phone {
+    margin-top: 20px;
+}
+
+.jn2_info .jn2_insert .jn2_phone input {
+    width: 125.5px;
+}
+
+.jn2_info .jn2_insert .jn2_phone select {
+    width: 125px;
+}
+
+.jn2_info .jn2_insert .jn2_phone p {
+    cursor: pointer;
+    font-size: 14px;
+    color: #000;
+    border-bottom: 1px solid #000;
+    padding: 10px 2px 6px 0;
+}
+
+.jn2_info .jn2_insert .jn2_date p {
+    margin: 50px 0 14px 0;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+}
+
+.jn2_info .jn2_insert .jn2_date .jn2_year {
+    width: 145px;
+}
+
+.jn2_info .jn2_insert .jn2_date .jn2_month {
+    width: 70px;
+}
+
+.jn2_info .jn2_insert .jn2_date .jn2_day {
+    width: 70px;
+}
+
+.jn2_address {
+    margin-top: 10px;
+}
+
+p .jn2_explain {
+    text-align:center;
+}
+
+.jn2_btnPosition {
+    position: absolute;
+ top: 598px;
+ right: 5px;
+
+}
+
+.jn2_btn1 {
+    position: absolute;
+    top: 280px;
+    right: -15px;
+}
+
+.jn2_btn2 {
+    position: absolute;
+    top: 280px;
+    right: 220px;
+}
+
+.jn2_btn4 {
+    position: absolute;
+    top: 590px;
+    right: -5px;
+}
+
+.jn2_btn5 {
+    position: absolute;
+    top: 600px;
+    right: 220px;
+}
+
+
+
+/* login */
+/* login */
+/* login */
+/* login */
+/* login */
+/* login */
+/* login */
+/* login */
+/* login */
+/* login */
+
+
+.jn3_login {
+    margin: 0 auto;
+    padding-top: 55px;
+    padding-bottom: 150px;
+}
+
+.jn3_login .jn3_enter {
+    margin-top:20px;
+    text-align: left;
+}
+
+.jn3_login .jn3_head ul {
+    width: 420px;
+    margin: 30px 0 0 40px;
+}
+
+.jn3_login .jn3_body {
+    text-align: center;
+    margin: 0 40px 0 40px;
+}
+
+.jn3_login .jn3_all{
+    padding: 15px 0 30px 0;
+    height: 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.jn3_login .jn3_all ul {
+    float: right;
+}
+
+.jn3_login .jn3_head p {
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 40px 0 0 0;
+    text-align: center;
+}
+
+
+.jn3_login .jn3_head li {
+    cursor: pointer;
+    display: inline-block;
+    font-size:14px;
+    padding-bottom:9px;
+    margin-right:20px;
+}
+
+.jn3_login .jn3_container {
+    margin: 0 auto;
+    border: 1px #aaa solid;
+    width:500px;
+    height: 510px;
+}
+
+.jn3_login .jn3_body .jn3_joinBtn {
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.jn3_btn_240 {
+    width: 220px;
+    height: 50px;
+    font-size: 16px;
+}
+
+.jn3_btn_s_gray {
+    border:none;
+    background-color: #333;
+    color: #FFF;
+}
+
+.jn3_login .jn3_enter input {
+    height: 38px;
+    border: 1px solid #aaa;
+    font-size: 14px;
+    padding-left: 4.5%;
+}
+
+
+.jn3_login .jn3_enter input {
+    width:95%;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+button, input {
+    overflow: visible;
+}
+
+ul, li{
+    padding: 0;
+    list-style: none;
+}
+
+.jn3_login .jn3_all li {
+    display: inline-block;
+    font-size:13px;
+    color: #AAAAAA;
+}
+.jn3_noto {
+    font-family: 'Noto Sans KR';
+    letter-spacing: -1px;
+}
+
+p {
+    display:block;
+}
+
+form {
+    display:block;
+}
+
+div {
+    display: block;
+}
+
+img {
+    border-style: none;
+}
+
+
+/* mypage */
+/* mypage */
+/* mypage */
+/* mypage */
+/* mypage */
+/* mypage */
+/* mypage */
+/* mypage */
+/* mypage */
+/* mypage */
+/* mypage */
+
+
+.jn4_content.jn4_size1200 {
+    width: 1300px;
+    max-width: none;
+    margin: 0 auto;
+}
+
+.jn4_content .jn4_cont_h2tit01.jn4_eng {
+    font-family: 'tdDot', 'naMj', serif;
+    font-size: 32px;
+    line-height: 25px;
+    font-weight: normal;
+    letter-spacing: 0;
+}
+
+.jn4_content.jn4_size1200 h2 {
+    height: 60px;
+    text-align: center;
+}
+
+.jn4_bgBox {
+    width: 100%;
+    min-height: 90px;
+    margin-bottom: 60px;
+    background: #f7f7f7;
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.jn4_myInfo {
+    position: relative;
+}
+
+.jn4_myInfo .jn4_gradeArea {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    overflow: hidden;
+}
+
+.jn4_myInfo .jn4_gradeArea .jn4_silver {
+    background-position: -150px -526px;
+}
+
+.jn4_myInfo strong,
+.jn4_myInfo .jn4_diamond,
+.jn4_myInfo .jn4_platinum,
+.jn4_myInfo .jn4_gold,
+.jn4_myInfo .jn4_silver {
+    width: 50px;
+    height: 50px;
+    text-indent: -9999em;
+    background: url(../../../images/common/iconBg.png) repeat;
+    display: inline-block;
+    float: left;
+}
+
+.jn4_myInfo .jn4_gradeArea>div p {
+    margin: 4px 0;
+    color: #212121;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    font-family: 'Georgia', 'naMj', serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: normal;
+}
+
+.jn4_myInfo .jn4_gradeArea>div a {
+    position: relative;
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 20px 0 10px;
+    background: #666;
+    font-size: 11px;
+    color: #fff;
+    height: 22px;
+    line-height: 22px;
+    text-decoration: none;
+}
+
+.jn4_myInfo .jn4_itemArea {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    overflow: hidden;
+}
+
+.jn4_myInfo .jn4_itemArea>div.jn4_pointArea {
+    padding-left: 62px;
+    min-width: 88px;
+    position: relative;
+}
+
+.jn4_myInfo .jn4_itemArea>div {
+    float: left;
+}
+
+.jn4_myInfo .jn4_itemArea>div.jn4_couponArea {
+    width: 115px;
+    margin-left: 35px;
+}
+
+.jn4_layer-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: none;
+    z-index: 9001;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-right: -18px;
+}
+
+.jn4_layer-container>div {
+    display: none;
+    position: relative;
+    margin: 50px auto;
+}
+
+.jn4_division {
+    width: 100%;
+}
+
+.jn4_division .jn4_lnb {
+    float: left;
+    width: 170px;
+}
+
+.jn4_division .jn4_lnb>dl {
+    padding: 0 10px 40px 20px;
+    border: 1px solid #f0f0f0;
+}
+
+.jn4_division .jn4_lnb>dl .jn4_dt {
+    margin-top: 36px;
+    color: #212121;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.jn4_division .jn4_lnb>dl .jn4_dt {
+    margin-top: 36px;
+    color: #212121;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.jn4_division .jn4_cont {
+    float: right;
+    width: 1000px;
+}
+
+.jn4_content .jn4_h3,
+h3.jn4_cont_tit01,
+.jn4_titNm {
+    color: #212121;
+    letter-spacing: -1px;
+    font-family: 'naMj', serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.jn4_division .jn4_h3 {
+    position: relative;
+    vertical-align: middle;
+}
+
+.jn4_content h3,
+h3.jn4_cont_tit01,
+.jn4_titNm {
+    color: #212121;
+    letter-spacing: -1px;
+    font-family: 'naMj', serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.jn4_maT60 {
+    margin-top: 60px !important;
+}
+
+.jn4_recent-goods {
+    margin-top: 20px;
+    border-top: 1px solid #f0f0f0;
+    padding-top: 20px;
+}
+
+.jn4_halfCont {
+    margin-top: 57px;
+    overflow: hidden;
+}
+
+.jn4_halfCont .jn4_recentCont {
+    width: 388px;
+    float: left;
+}
+
+.jn4_wish-list {
+    float: right;
+    width: 592px;
+}
+
+.jn4_content h3,
+h3.jn4_cont_tit01,
+.jn4_titNm {
+    color: #212121;
+    letter-spacing: -1px;
+    font-family: 'naMj', serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.jn4_wish-list .jn4_wish-list__body {
+    margin-top: 16px;
+    border-top: 1px solid #f0f0f0;
+    padding-top: 20px;
+}
+
+.jn4_wish-list .jn4_goods-item:first-child {
+    margin-left: 0;
+}
+
+.jn4_wish-list .jn4_goods-item {
+    width: 184px;
+    /* margin-left: 20px; */
+}
+
+.jn4_goods__cont {
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+
+.jn4_goods__img {
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+.jn4_goods__tag {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 10px;
+    font-size: 0;
+}
+
+.jn4_goods__over-info {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 76px;
+    padding-top: 16px;
+    font-size: 0;
+    background: rgba(255, 255, 255, .8);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+element.jn4_style {
+    transform: translateY(0%);
+}
+
+.jn4_goods__info {
+    display: block;
+    padding: 13px 0 0;
+}
+
+.jn4_wish-list .jn4_goods-item:first-child {
+    margin-left: 0;
+}
+
+.jn4_wish-list .jn4_goods-item {
+    width: 184px;
+    /* margin-left: 20px; */
+}
+
+.jn4_goods-item {
+    /* position: relative; */
+    /* float: left; */
+    text-align: center;
+}
+
+.jn4_halfCont {
+    margin-top: 57px;
+    overflow: hidden;
+}
+
+.jn4_division .jn4_lnb>dl {
+    padding: 0 10px 40px 20px;
+    border: 1px solid #f0f0f0;
+}
+
+.jn4_division .jn4_lnb>dl {
+    padding: 0 10px 40px 20px;
+    border: 1px solid #f0f0f0;
+}
+
+.jn4_division .jn4_lnb>dl dd ul li {
+    /* margin-top: 5px; */
+    line-height: 18px;
+}
+
+li,
+menu {
+    list-style: none;
+}
+
+.jn4_division .jn4_lnb>dl dd ul li a {
+    color: #212121;
+    font-size: 11px;
+}
+
+.jn4_division .jn4_lnb>dl dd ul {
+    margin-top: 10px;
+}
+
+.jn4_division .jn4_lnb>dl dd ul li:first-child {
+    margin-top: 0;
+}
+
+.jn4_division .jn4_lnb>dl dd ul {
+    margin-top: 10px;
+    padding-left: 0px;
+    padding-right: 25px;
+}
+
+.jn4_content h3,
+h3.jn4_cont_tit01,
+.jn4_titNm {
+    color: .jn5_212121;
+    letter-spacing: -1px;
+    font-family: 'naMj', serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.jn4_division .jn4_h3 {
+    position: relative;
+    vertical-align: middle;
+}
+
+.jn4_division .jn4_h3 .jn4_btnMore.jn4_bgNo {
+    padding-right: 0;
+    background: none;
+}
+
+.jn4_division .jn4_h3 .jn4_btnMore {
+    font-size: 11px;
+    font-family: 나눔바른고딕, NanumBarunGothic, 맑은고딕, "Malgun Gothic", 돋움, Dotum, "Apple SD Gothic Neo", sans-serif;
+    font-weight: normal;
+    letter-spacing: 0px;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    text-transform: uppercase;
+    padding: 5px 8px 5px 0px;
+}
+
+.jn4_nodata {
+    height: 130px;
+    color: #999;
+    text-align: center;
+    line-height: 130px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body,
+html,
+header,
+footer,
+aside,
+nav,
+section,
+article,
+details,
+figure,
+figcaption,
+menu,
+command,
+div,
+dl,
+dd,
+ol,
+ul,
+li,
+form,
+fieldset,
+legend,
+iframe,
+table,
+caption,
+thead,
+tfoot,
+tbody,
+tr,
+th,
+td,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dt,
+summary,
+input,
+textarea,
+button,
+select,
+datalist,
+img,
+embed,
+object,
+canvas,
+audio,
+video,
+meter,
+progress,
+keygen,
+a,
+label,
+output,
+dialog,
+address,
+blockquote,
+p,
+pre,
+span,
+b,
+strong,
+i,
+em,
+dfn,
+var,
+u,
+ins,
+s,
+del,
+q,
+mark,
+small,
+sub,
+sup,
+abbr,
+bdi,
+bdo,
+cite,
+time,
+ruby,
+rp,
+rt,
+code,
+kbd,
+samp,
+acronym,
+big,
+frame,
+frameset,
+noframes,
+tt,
+map,
+option,
+hr {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    color: inherit;
+    /* font-family: inherit; */
+    size: inherit;
+    font-style: normal;
+    line-height: inherit;
+    vertical-align: top;
+}
+
+.jn4_myInfo .jn4_gradeArea>div {
+    margin-left: 70px;
+}
+
+.jn4_tbl .jn4_head thead .jn4_th,
+.jn4_tbl .jn4_head tbody .jn4_theadType th,
+.jn4_tbl .jn4_head tbody .jn4_theadType td {
+    padding: 12px 0;
+    color: #212121;
+    background: #f7f7f7;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.jn4_th,
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.jn4_th,
+td {
+    /* text-align: center; */
+    vertical-align: middle;
+}
+
+.jn4_tbl .jn4_nodata td {
+    height: 130px;
+    padding: 0 !important;
+    color: #999;
+    line-height: 130px;
+}
+
+.jn4_tbl caption {
+    display: none;
+}
+
+caption,
+legend {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    font-size: 0;
+    line-height: 0;
+}
+
+caption {
+    text-align: left;
+}
+
+
+
+/* mmpp */
+/* mmpp */
+/* mmpp */
+/* mmpp */
+/* mmpp */
+/* mmpp */
+/* mmpp */
+/* mmpp */
+/* mmpp */
+/* mmpp */
+
+
+    /* .jn5_content.jn5_size1200 {
+    width: 1200px;
+    max-width: none;
+    margin: 0 auto;
+    }
+    .jn5_content .jn5_cont_h2tit01.jn5_eng {
+    padding-top:50px;
+    /* font-family: 'tdDot','naMj',serif; */
+    font-size: 32px;
+    line-height: 25px;
+    font-weight: normal;
+    letter-spacing: 0;
+    }
+    .jn5_content.jn5_size1200 h2 {
+    height: 60px;
+    text-align: center;
+    }
+    .jn5_bgBox {
+    width: 100%;
+    min-height: 90px;
+    margin-bottom: 60px;
+    background: #f7f7f7;
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    }
+    .jn5_myInfo {
+    position: relative;
+    }
+    .jn5_myInfo .jn5_gradeArea {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    overflow: hidden;
+    }
+    .jn5_myInfo .jn5_gradeArea .jn5_silver {
+    background-position: -150px -526px;
+    }
+    .jn5_myInfo strong, .jn5_myInfo .jn5_diamond, .jn5_myInfo .jn5_platinum, .jn5_myInfo .jn5_gold, .jn5_myInfo .jn5_silver {
+    width: 50px;
+    height: 50px;
+    text-indent: -9999em;
+    background: url(../../../images/common/iconBg.png) repeat;
+    display: inline-block;
+    float: left;
+    }
+    strong, th, h1, h2, h3, h4, h5 {
+    font-weight: normal;
+    }
+    .jn5_myInfo .jn5_gradeArea>div p {
+    margin: 4px 0;
+    color: #212121;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    /* font-family: 'Georgia','naMj',serif; */
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: normal;
+    }
+    .jn5_myInfo .jn5_gradeArea>div a {
+    position: relative;
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 20px 0 10px;
+    background: #666;
+    font-size: 11px;
+    color: #fff;
+    height: 22px;
+    line-height: 22px;
+    text-decoration: none;
+    }
+    .jn5_myInfo .jn5_itemArea {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    overflow: hidden;
+    }
+    .jn5_myInfo .jn5_itemArea>div.jn5_pointArea {
+    padding-left: 62px;
+    min-width: 88px;
+    position: relative;
+    }
+    .jn5_myInfo .jn5_itemArea>div {
+    float: left;
+    }
+    .jn5_myInfo .jn5_itemArea>div.jn5_couponArea {
+    width: 115px;
+    margin-left: 35px;
+    }
+    
+    .jn5_layer-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: none;
+    z-index: 9001;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-right: -18px;
+    }
+    .jn5_layer-container>div {
+    display: none;
+    position: relative;
+    margin: 50px auto;
+    }
+    .jn5_division {
+    width: 100%;
+    }
+    .jn5_division .jn5_lnb {
+    float: left;
+    width: 170px;
+    }
+    .jn5_division .jn5_lnb>dl {
+    padding: 0 10px 40px 20px;
+    border: 1px solid #f0f0f0;
+    }
+    .jn5_division .jn5_lnb>dl dt {
+    margin-top: 36px;
+    color: #212121;
+    font-size: 13px;
+    font-weight: bold;
+    }
+    .jn5_division .jn5_lnb>dl dt {
+    margin-top: 36px;
+    color: #212121;
+    font-size: 13px;
+    font-weight: bold;
+    }
+    .jn5_division .jn5_cont {
+    float: right;
+    width: 1000px;
+    }
+    .jn5_content h3, h3.jn5_cont_tit01, .jn5_titNm {
+    color: #212121;
+    letter-spacing: -1px;
+    /* font-family: 'naMj',serif; */
+    font-size: 18px;
+    font-weight: bold;
+    }
+    .jn5_division h3 {
+    position: relative;
+    vertical-align: middle;
+    }
+    .jn5_content h3, h3.jn5_cont_tit01, .jn5_titNm {
+    color: #212121;
+    letter-spacing: -1px;
+    /* font-family: 'naMj',serif; */
+    font-size: 18px;
+    font-weight: bold;
+    }
+    .jn5_maT60 {
+    margin-top: 60px!important;
+    }
+    .jn5_recent-goods {
+    margin-top: 20px;
+    border-top: 1px solid #f0f0f0;
+    padding-top: 20px;
+    }
+    .jn5_halfCont {
+    margin-top: 57px;
+    overflow: hidden;
+    }
+    .jn5_halfCont .jn5_recentCont {
+    width: 388px;
+    float: left;
+    }
+    .jn5_wish-list {
+    float: right;
+    width: 592px;
+    }
+    .jn5_content h3, h3.jn5_cont_tit01, .jn5_titNm {
+    color: #212121;
+    letter-spacing: -1px;
+    /* font-family: 'naMj',serif; */
+    font-size: 18px;
+    font-weight: bold;
+    }
+    .jn5_wish-list .jn5_wish-list__body {
+    margin-top: 16px;
+    border-top: 1px solid #f0f0f0;
+    padding-top: 20px;
+    }
+    .jn5_wish-list .jn5_goods-item:first-child {
+    margin-left: 0;
+    }
+    .jn5_wish-list .jn5_goods-item {
+    width: 184px;
+    /* margin-left: 20px; */
+    }
+    .jn5_goods__cont {
+    overflow: hidden;
+    display: block;
+    position: relative;
+    }
+    .jn5_goods__img {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    }
+    .jn5_goods__tag {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 10px;
+    font-size: 0;
+    }
+    .jn5_goods__over-info {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 76px;
+    padding-top: 16px;
+    font-size: 0;
+    background: rgba(255,255,255,.8);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+    element.jn5_style {
+    transform: translateY(0%);
+    }
+    .jn5_goods__info {
+    display: block;
+    padding: 13px 0 0;
+    }
+    .jn5_wish-list .jn5_goods-item:first-child {
+    margin-left: 0;
+    }
+    .jn5_wish-list .jn5_goods-item {
+    width: 184px;
+    /* margin-left: 20px; */
+    }
+    .jn5_goods-item {
+    /* position: relative; */
+    /* float: left; */
+    text-align: center;
+    }
+    .jn5_halfCont {
+    margin-top: 57px;
+    overflow: hidden;
+    }
+    .jn5_division .jn5_lnb>dl {
+    padding: 0 10px 40px 20px;
+    border: 1px solid #f0f0f0;
+    }
+    .jn5_division .jn5_lnb>dl {
+    padding: 0 10px 40px 20px;
+    border: 1px solid #f0f0f0;
+    }
+    .jn5_division .jn5_lnb>dl dd ul li {
+    /* margin-top: 5px; */
+    line-height: 18px;
+    }
+    li, menu {
+    list-style: none;
+    }
+    .jn5_division .jn5_lnb>dl dd ul li a {
+    color: #212121;
+    font-size: 11px;
+    }
+    
+    a {
+    padding-top:10px;
+    outline: none;
+    /* color: #212121; */
+    text-decoration: none;
+    }
+    .jn5_division .jn5_lnb>dl dd ul {
+    margin-top: 10px;
+    }
+    .jn5_division .jn5_lnb>dl dd ul li:first-child {
+    margin-top: 0;
+    }
+    .jn5_division .jn5_lnb>dl dd ul {
+    margin-top: 10px;
+    padding-left:0px;
+    padding-right: 25px;
+    }
+    .jn5_content h3, h3.jn5_cont_tit01, .jn5_titNm {
+    color: #212121;
+    letter-spacing: -1px;
+    /* font-family: 'naMj',serif; */
+    font-size: 18px;
+    font-weight: bold;
+    }
+    .jn5_division h3 {
+    position: relative;
+    vertical-align: middle;
+    }
+    .jn5_division h3 .jn5_btnMore.jn5_bgNo {
+    padding-right: 0;
+    background: none;
+    }
+    .jn5_division h3 .jn5_btnMore {
+    font-size: 11px;
+    /* font-family: 나눔바른고딕, NanumBarunGothic, 맑은고딕, "Malgun Gothic", 돋움, Dotum, "Apple SD Gothic Neo", sans-serif; */
+    font-weight: normal;
+    letter-spacing: 0px;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    text-transform: uppercase;
+    padding: 5px 8px 5px 0px;
+    }
+    .jn5_nodata {
+    height: 130px;
+    color: #999;
+    text-align: center;
+    line-height: 130px;
+    }
+    table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    }
+    
+    .jn5_myInfo .jn5_gradeArea>div {
+    margin-left: 70px;
+    }
+    .jn5_tbl .jn5_head thead th, .jn5_tbl .jn5_head tbody .jn5_theadType th, .jn5_tbl .jn5_head tbody .jn5_theadType td {
+    padding: 12px 0;
+    color: #212121;
+    background: #f7f7f7;
+    border-bottom: 1px solid #f0f0f0;
+    }
+    th, td {
+    text-align: center;
+    vertical-align: middle;
+    }
+    th, td {
+    /* text-align: center; */
+    vertical-align: middle;
+    }
+    .jn5_tbl .jn5_nodata td {
+    height: 130px;
+    padding: 0!important;
+    color: #999;
+    line-height: 130px;
+    }
+    .jn5_tbl caption {
+    display: none;
+    }
+    caption, legend {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    font-size: 0;
+    line-height: 0;
+    }
+    caption {
+    text-align: left;
+    }  */
+
+    
+
+
+/* pw_find */
+/* pw_find */
+/* pw_find */
+/* pw_find */
+/* pw_find */
+/* pw_find */
+/* pw_find */
+/* pw_find */
+/* pw_find */
+/* pw_find */
+
+
+
+.jn6_login {
+    padding-top: 55px;
+    padding-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.jn6_login .jn6_container {
+    margin: 0 auto;
+    border: 1px #aaa solid;
+    width: 500px;
+    height: 470px;
+}
+* {
+    font-family: 'Malgun Gothic', 'Noto Sans KR';
+    letter-spacing: -1.5px;
+    color: #333;
+    
+}
+.jn6_login .jn6_head p {
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 40px 0 0 0;
+    text-align: center;
+}
+.jn6_noto {
+    font-family: 'Noto Sans KR';
+    letter-spacing: -1px;
+}
+.jn6_login .jn6_head .jn6_ul {
+    width: 420px;
+    margin: 30px 0 0px 40px;
+}
+.jn6_login .jn6_head li {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.jn6_login .jn6_head li:nth-child(-n+3) {
+    margin-right: 20px;
+}
+.jn6_login .jn6_head .jn6_ul {
+    width: 420px;
+    margin: 30px 0 0px 40px;
+}
+.jn6_login .jn6_enter input {
+    height: 38px;
+    border: 1px solid #aaa;
+    font-size: 14px;
+    padding-left: 4.5%;
+}
+.jn6_login .jn6_enter input {
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.jn6_login .jn6_findPwd div:nth-child(1) .jn6_enter input:nth-child(n+2) {
+    width: 131px;
+}
+.jn6_login .jn6_findPwd .jn6_customerNm {
+    width: 95%;
+}
+.jn6_login .jn6_enter input {
+    height: 38px;
+    border: 1px solid #aaa;
+    font-size: 14px;
+    padding-left: 4.5%;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.jn6_login .jn6_findPwd select {
+    height: 42px;
+    width: 100px;
+}
+.jn6_frt {
+    float: right !important;
+}
+.jn6_login .jn6_findPwd button {
+    position: absolute;
+    margin: 0 0 0 -120px;
+    bottom: 40px;
+}
+.jn6_btn_240 {
+    width: 240px;
+    height: 50px;
+    font-size: 16px;
+}
+.jn6_btn_s_red {
+    border: none;
+    background-color: #000;
+    color: #FFF;
+}
+.jn6_login .jn6_findPwd button>span {
+    color: white;
+    font-size: 13px;
+}
+.jn6_popup_overlay { 
+		background-color: #000;
+		bottom: 0;
+		left: 0;
+		opacity: 0.5;
+		filter: alpha(opacity = 60);	
+		position: fixed;
+		right: 0;
+		top: 0;
+		z-index: 9;
+		display: none;
+	}
+.jn6_login .jn6_enter {
+margin-top: 20px;
+text-align: left;
+}
+.jn6_frt {
+    float: right !important;
+}
+.jn6_login .jn6_findWay p:nth-child(2n-1) {
+    margin-right: 20px;
+}
+.jn6_login .jn6_findWay p:nth-child(1) {
+    font-weight: bold;
+}
+.jn6_login .jn6_findWay p {
+    font-size: 13px;
+    float: left;
+    padding: 15px 0 30px 0;
+    height: 20px;
+}
+.jn6_login .jn6_findPwd {
+    position: relative;
+    height: 315px;
+    display: none;
+}
+.jn6_login .jn6_findPwd ul {
+    margin-top: 20px;
+}
+.jn6_login .jn6_findPwd li {
+    font-size: 13px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.jn6_login .jn6_enter input {
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.jn6_login .jn6_findWay p {
+    font-size: 13px;
+    float: left;
+    padding: 15px 0 30px 0;
+    height: 20px;
+}
+ul, li, dl, dt, dd {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.jn6_login .jn6_body {
+    text-align: center;
+    margin: 0 40px 0 40px;
+}
+p, div, h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+.jn6_login .jn6_findPwd .jn6_email {
+    margin-right: 13px;
+    background: url(https://www.iloom.com/img/front/account/@.png) no-repeat 2% 65%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* appearance: none; */
+    padding-left: 20px;
+    width: 126px;
+}
+.jn6_login .jn6_findWay p:nth-child(2n) {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+
+.jn6_body .jn6_enter .phoneCenter{
+    height: 15px;
+    border: #212121 1px solid;
+}

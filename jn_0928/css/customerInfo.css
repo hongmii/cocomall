@@ -1,0 +1,411 @@
+@charset "UTF-8";
+/* 칼라 */
+/* 길이 */
+/* 폰트사이즈 */
+/* Fonts */
+/* T */
+
+/*
+* Noto Sans KR (korean) http://www.google.com/fonts/earlyaccess */
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 100; src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 300; src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 400; src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 500; src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 700; src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 900; src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format("opentype"); }
+
+/*  */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i');
+
+* {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            font-family: "Noto Sans KR", "Malgun Gothic", 돋움, dotum, Helvetica, "Apple SD Gothic Neo", sans-serif !important;
+        }
+
+        section#center {
+            width: 1200px;
+            max-width: none;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        section#center #process {
+            background-image: url('main_icon_order.png');
+            height: 91px;
+            position: relative;
+        }
+
+        section#center #process span.process_sopBag {
+            padding-left: 354px;
+        }
+
+        #center #charset-title {
+            font-family: "Noto Sans KR", "Malgun Gothic", 돋움, dotum, Helvetica, "Apple SD Gothic Neo", sans-serif;
+            font-size: 32px;
+            font-weight: normal;
+            letter-spacing: 0;
+        }
+
+        #center h2 {
+            padding: 0 0 5px 0;
+            margin-top: 250px;
+            height: 60px;
+            text-align: center;
+            color: #212121;
+        }
+
+        section#center #process {
+            margin-top: 35px;
+            margin-bottom: 60px;
+        }
+
+        th,
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-weight: normal;
+        }
+
+        section#center table {
+            table-layout: fixed;
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            border-top: 1px solid #f0f0f0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        section#center tr.title {
+            height: 45px;
+            background-color: #f7f7f7;
+            width: 100%;
+        }
+
+        section#center .beneInfo {
+            border: 1px solid #f0f0f0;
+            display: inline-block;
+            width: 100%;
+            min-height: 63px;
+        }
+
+        section#center th {
+            text-align: center;
+            padding: 12px 0;
+            border-bottom: 1px solid #f0f0f0;
+            color: #212121;
+            font-size: 12px;
+        }
+
+        section#center th.th1 {
+            width: 740px;
+        }
+
+        section#center th.th2 {
+            width: 110px;
+        }
+
+        section#center th.th3 {
+            width: 210px;
+        }
+
+        section#center th.th4 {
+            width: 140px;
+        }
+
+        section#center tr.items {
+            height: 80px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        section#center tr.items td {
+            font-size: 12px;
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+
+        section#center tr.items .img {
+            width: 100px;
+            display: table-cell;
+        }
+
+        section#center tr.items .info {
+            padding: 0 0 0 20px;
+            display: table-cell;
+            text-align: left;
+            vertical-align: top;
+            line-height: 18px;
+        }
+
+        .items .info .brand {
+            display: block;
+        }
+
+        .items .info .productName {
+            display: inline-block;
+        }
+
+        .items .info .option {
+            display: block;
+        }
+
+        .items .col3,
+        .col4,
+        .col5 {
+            text-align: center;
+        }
+
+        .order_status_box {
+            border: 1px solid #f0f0f0;
+            margin-top: 40px;
+            display: table;
+            width: 100%;
+            position: relative;
+            padding: 21px 0 28px;
+        }
+
+        .order_status_box .or_sum {
+            display: table-cell;
+            text-align: center;
+            vertical-align: top;
+        }
+
+        .order_status_box .icon_plus,
+        .order_status_box .icon_sum {
+            display: table-cell;
+            width: 1%;
+            height: 14px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .order_status_box .icon_plus span {
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            background: url(Shopping-Bag-icon.png) repeat;
+            background-position: -196px 0;
+        }
+
+        .order_status_box .icon_sum span {
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            background: url(Shopping-Bag-icon.png) repeat;
+            background-position: -226px 0;
+        }
+
+        .bulList>li {
+            margin-top: 10px;
+            position: relative;
+            padding-left: 7px;
+            text-align: left;
+            line-height: 22px;
+            color: #212121;
+            font-size: 12px;
+            list-style: none;
+        }
+
+        .Info_text {
+            font-family: "Noto Sans KR", "Malgun Gothic", 돋움, dotum, Helvetica, "Apple SD Gothic Neo", sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            color: #212121;
+            margin-top: 60px;
+        }
+
+        table {
+            table-layout: fixed;
+            width: 100%;
+            margin-top: 20px;
+            border-top: 1px solid #f0f0f0;
+            border-bottom: 1px solid #f0f0f0;
+            border-collapse: collapse;
+        }
+
+        th {
+            font-size: 12px;
+            width: 170px;
+            text-align: left;
+            background: #f7f7f7;
+            color: #222;
+            padding: 12px 30px;
+            border-top: 1px solid #f0f0f0;
+            font-weight: normal;
+            vertical-align: middle;
+        }
+
+        td {
+            padding: 12px 30px;
+            border-top: 1px solid #f0f0f0;
+            text-align: left;
+            vertical-align: middle;
+        }
+
+        .checkbox {
+            display: inline-block;
+            min-height: 16px;
+            position: relative;
+            padding-left: 25px;
+            white-space: 16px;
+            color: #212121;
+            vertical-align: middle;
+            font-size: 12px;
+            font-weight: normal;
+            text-align: right;
+        }
+
+        .btnD {
+            display: inline-block;
+            font-family: "Noto Sans KR", "Malgun Gothic", 돋움, dotum, Helvetica, "Apple SD Gothic Neo", sans-serif;
+            width: auto;
+            min-width: 48px;
+            height: 30px;
+            padding: 0 15px;
+            font-size: 12px;
+            line-height: 30px;
+            text-align: center;
+            background: #f7f7f7;
+            border: 1px solid #d3d3d3;
+            text-decoration: none;
+        }
+
+        .deliveryInfo .address li {
+            position: relative;
+            margin-top: 10px;
+            list-style: none;
+        }
+
+        .textbox {
+            position: relative;
+            display: inline-block;
+            background: #fff;
+        }
+
+        .txtMsg {
+            margin-top: 7px;
+            color: #212121;
+            font-size: 12px;
+        }
+
+        .pointTxt {
+            background: #f7f7f7;
+            border: 1px solid #d3d3d3;
+        }
+
+        .sumArea {
+            padding-top: 14px;
+            border: 1px solid #d3d3d3;
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        .sum_cont {
+            display: table;
+            width: 95%;
+            padding: 10px 29px 11px;
+        }
+
+        .sum_cont .dt {
+            display: table-cell;
+            color: #222;
+            vertical-align: middle;
+            font-size: 12px;
+        }
+
+        .sum_cont .dd {
+            display: table-cell;
+            line-height: 1;
+            text-align: right;
+            vertical-align: middle;
+            font-size: 13px;
+        }
+
+        .sum_result .sum_cont {
+            min-height: 57px;
+            border-top: 1px solid #f0f0f0;
+            background-color: #f7f7f7;
+        }
+
+        .sum_cont .sum_big {
+            color: #212121;
+            font-size: 24px;
+            font-family: "Noto Sans KR", "Malgun Gothic", 돋움, dotum, Helvetica, "Apple SD Gothic Neo", sans-serif;
+            vertical-align: middle;
+        }
+
+        em {
+            font-style: normal;
+        }
+
+        .sum_result .sum_cont+.sum_cont {
+            line-height: 31px;
+        }
+
+        .sum_result .sum_cont+.sum_cont .dt {
+            display: inline-block;
+            width: 60%;
+        }
+
+        .sum_result .sum_cont+.sum_cont .dt {
+            display: inline-block;
+            width: 38%;
+        }
+
+        .brnArea {
+            font-size: 0;
+            line-height: 0;
+            letter-spacing: normal;
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .btnBlack {
+            height: 48px;
+            font-size: 13px;
+            font-weight: bold;
+            width: 278px;
+            background: #222;
+            border-color: #222;
+            color: #fff;
+        }
+
+        .paymentBtn {
+            height: 48px;
+            width: 278px;
+            font-size: 13px;
+            font-weight: bold;
+            text-align: center;
+            vertical-align: center;
+            margin-top: 20px;
+            background: #222;
+            border-color: #222;
+            color: #fff;
+            line-height: 48px;
+            /* margin-bottom: 250px; */
+            margin-left: 461px;
+        }
+
+        .beneInfo span {
+            padding-top: 21px 0 0 30px;
+            float: left;
+            font-size: 14px;
+            margin-left: 50px;
+            color: #212121;
+            line-height: 20px;
+            margin-top: 20px;
+        }
+
+        .beneInfo span#point {
+            margin-left: 970px;
+        }
+
+        ul li {
+            list-style: none;
+        }

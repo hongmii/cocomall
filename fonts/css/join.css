@@ -1,0 +1,298 @@
+/* join */
+
+@import url("common.css");
+
+
+.jn2_info .jn2_container {
+    margin: 0 auto;
+    border: 1px #aaa solid;
+    width: 500px;
+    height: 825px;
+}
+
+
+.jn2_info .jn2_head {
+    border-bottom: 1px solid #EEEEEE;
+    text-align: center;
+}
+
+.jn2_info .jn2_head p {
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 40px 0 0 0;
+}
+
+.jn2_info .jn2_head ul {
+    width: 420px;
+    margin: 40px 0 12px 40px;
+}
+
+.jn2_info .jn2_head li:nth-child(-n+3) {
+    margin-right: 65px;
+}
+
+.jn2_info .jn2_head li {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.jn2_info .jn2_body {
+    margin: 0 40px 0 40px;
+    height: 675px;
+    position: relative;
+}
+
+.jn2_info .jn2_insert {
+    padding-top: 40px;
+}
+
+.jn2_info .jn2_insert .jn2_id input {
+    width: 131px;
+}
+
+.jn2_info .jn2_insert input {
+    height: 38px;
+    border: 1px solid #aaa;
+    font-size: 14px;
+    padding-left: 0px;
+}
+
+.jn2_info .jn2_insert .jn2_email {
+    margin-right: 13px;
+    background: url(https://www.iloom.com/img/front/account/@.png) no-repeat 2% 65%;
+    -webkit-appearance: none;
+}
+
+.jn2_info .jn2_insert select {
+    padding-left: 10px;
+    font-size: 14px;
+    height: 40px;
+    width: 100px;
+    background: url(https://www.iloom.com/img/front/account/selectDown.png) no-repeat 95% 50%;
+    -webkit-appearance: none;
+}
+
+.jn2_info .jn2_insert .jn2_id p {
+    cursor: pointer;
+    font-size: 14px;
+    color: #000;
+    border-bottom: 1px solid #000;
+    padding: 10px 2px 6px 0;
+}
+
+.jn2_frt {
+    float: right !important;
+
+}
+
+.jn2_info .jn2_insert .jn2_name input {
+    width: 403px;
+    margin-bottom: 10px;
+}
+
+.jn2_info .jn2_insert .jn2_pwd {
+    margin-top: 50px;
+}
+
+button,
+input {
+    overflow: visible;
+}
+
+.jn2_info .jn2_insert .jn2_name {
+    margin-top: 10px;
+}
+
+.jn2_info .jn2_insert .jn2_pwd div {
+    border: 1px solid #aaa;
+    margin-bottom: 0px;
+}
+
+.jn2_info .jn2_insert .jn2_pwd input {
+    width: 140px;
+    margin-bottom: 0px;
+    border: none;
+}
+
+
+.jn2_info .jn2_insert .jn2_pwd div>p {
+    float: right;
+    padding: 12px 5px 0 0;
+    color: #000;
+}
+
+.jn2_info .jn2_insert .jn2_pwd p {
+    font-size: 13px;
+    color: #aaa;
+}
+
+.jn2_info .jn2_insert .jn2_pwd div {
+    border: 1px solid #aaa;
+    margin-bottom: 10px;
+}
+
+.jn2_info .jn2_insert .jn2_pwd div {
+    border: 1px solid #aaa;
+    margin-bottom: 10px;
+}
+
+
+.jn2_info .jn2_insert select {
+    padding-left: 10px;
+    font-size: 14px;
+    height: 40px;
+    width: 100px;
+    background: url(https://www.iloom.com/img/front/account/selectDown.png) no-repeat 95% 50%;
+    -webkit-appearance: none;
+}
+
+.jn2_info .jn2_insert {
+    padding-top: 40px;
+}
+
+.jn2_info .jn2_body {
+    margin: 0 40px 0 40px;
+    height: 675px;
+    position: relative;
+}
+
+.jn2_info .jn2_insert .jn2_date ul {
+    display: inline;
+    /* margin-left: 15px; */
+}
+
+.jn2_info .jn2_insert .jn2_date li {
+    font-size: 13px;
+    display: inline;
+    margin-right: 5px;
+    vertical-align: middle;
+
+}
+
+ul,
+li,
+dl,
+dt,
+dd {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.jn2_info .jn2_insert .jn2_date .jn2_radio {
+    height: auto;
+}
+
+.jn2_info .jn2_button {
+    bottom: 40px;
+    /* position: absolute; */
+}
+
+.jn2_info .jn2_button button:nth-child(1) {
+    margin-right: 5px;
+}
+
+.jn2_btn_205 {
+    width: 205px;
+    height: 50px;
+    font-size: 16px;
+}
+
+.jn2_btn_s_gray {
+    border: none;
+    background-color: #63666A;
+    color: #FFF;
+}
+
+.jn2_btn_205 {
+    width: 205px;
+    height: 50px;
+    font-size: 16px;
+}
+
+.jn2_btn_s_red {
+    border: none;
+    background-color: #000;
+    color: #FFF;
+}
+
+.jn2_info .jn2_insert .jn2_phone {
+    margin-top: 20px;
+}
+
+.jn2_info .jn2_insert .jn2_phone input {
+    width: 125.5px;
+}
+
+.jn2_info .jn2_insert .jn2_phone select {
+    width: 125px;
+}
+
+.jn2_info .jn2_insert .jn2_phone p {
+    cursor: pointer;
+    font-size: 14px;
+    color: #000;
+    border-bottom: 1px solid #000;
+    padding: 10px 2px 6px 0;
+}
+
+.jn2_info .jn2_insert .jn2_date p {
+    margin: 50px 0 14px 0;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+}
+
+.jn2_info .jn2_insert .jn2_date .jn2_year {
+    width: 145px;
+}
+
+.jn2_info .jn2_insert .jn2_date .jn2_month {
+    width: 70px;
+}
+
+.jn2_info .jn2_insert .jn2_date .jn2_day {
+    width: 70px;
+}
+
+.jn2_address {
+    margin-top: 10px;
+}
+
+p .jn2_explain {
+    text-align:center;
+}
+
+.jn2_btnPosition {
+    position: absolute;
+ top: 598px;
+ right: 5px;
+
+}
+
+.jn2_btn1 {
+    position: absolute;
+    top: 280px;
+    right: -15px;
+}
+
+.jn2_btn2 {
+    position: absolute;
+    top: 280px;
+    right: 220px;
+}
+
+.jn2_btn4 {
+    position: absolute;
+    top: 590px;
+    right: -5px;
+}
+
+.jn2_btn5 {
+    position: absolute;
+    top: 600px;
+    right: 220px;
+}
+
+
+

@@ -1,0 +1,114 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="cs_1.css">
+    <script type="text/javascript" src="/feedback-modal-window.js"></script>
+    <title>Document</title>
+<script>
+   
+
+</script>
+</head>
+<body>
+
+<center>
+    <hr>
+    <div class="sub_vvisual2">
+        
+        <img src="cs_img.jpg">
+    </div>
+<form id="frm1" action="reply.php" method="post">
+
+<center>
+    <h1>  고객센터  </h1>
+    <h3> Costumer Center </h3>
+</center>
+
+<table height="140px">
+    <thead class="thead1">
+        <tr>
+        <th class="th1" onclick="">공지사항</th>
+        <th class="th1" onclick="">자주찿는 질문</th>
+        <th class="th3" onclick="">1:1문의</th>
+        </tr>
+    </thead>
+</table>
+
+<table class="td11" height="140px"> 
+    <tr>
+    <td> 
+        <center>구객님께서 찿으시는 질문을 검색해주세요.</center><br>
+        <center>
+        <select>
+            <option>전체검색</option>
+            <option>배송</option>
+            <option>화불</option>
+            <option>쿠폰</option>
+            <option>주문확인</option>
+        </select>
+        <input type="text" size="60">
+        </center>
+    </td>
+    </tr>
+</table>
+
+<br>
+
+<table>
+    <thead >
+        <tr>
+            <th class="th1"><a href="./reply_list">1:1문의검색</a></th>
+            <th class="th3"><a href="./reply.html">1대1문의신청</a></th>
+           
+        </tr>
+    </thead>
+</table>
+
+<form action="reply.php" method="post">
+<!-- <input type="hidden" name="parent_depth" value="<?= $parent_row['depth']?>">
+<input type="hidden" name="parent_thread" value="<?= $parent_row['thread']?>"> -->
+<table border=1>   
+<tbody>
+    <tr>
+        <td class="tda1">
+           <center> 글쓴이</center>
+        </td>
+        <td class="tdb1">
+            <input type="text" name="name" value="" size="100" required/>
+        </td>
+    </tr>
+    <tr>
+        <td class="tda2">
+               <center> 이메일</center>
+        </td>
+        <td class="tdb2">
+            <input type="email" id="email" name="email" class="email" size="50" required> 
+        </td>
+    </tr>
+    
+    <tr>
+        <td class="tda4">
+           <center> 제목 </center>
+        </td>
+        <td class="tdb4">
+            <input type="text" name="title" value="" size="50" required  >
+        </td>
+    </tr>
+    <tr>
+        <td class="tda5">
+           <center> 내용 </center>
+        </td>
+        <td class="tdb5">
+         <textarea name="content" cols=65  rows=15></textarea>
+         
+        </td>
+    </tr>
+    <tr>
+ </tr>
+</tbody>
+</table>
+<input type="submit" value="글저장" id="btn1">
+<input type="reset" value="다시쓰기" id="btn1">
+<input type="button" value="되돌아가기" onclick="history.back(-1)" id="btn2">
+</form>
+</center>

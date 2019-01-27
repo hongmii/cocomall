@@ -1,0 +1,326 @@
+   @charset "UTF-8";
+/* ??? */
+/* ???? */
+/* ????????? */
+/* Fonts */
+/* T */
+
+/*
+* Noto Sans KR (korean) http://www.google.com/fonts/earlyaccess */
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 100; src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 300; src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 400; src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 500; src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 700; src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 900; src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format("opentype"); }
+
+/*  */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i');
+
+html, body { font-family: "Noto Sans KR", "Malgun Gothic", dotum, Helvetica, "Apple SD Gothic Neo", sans-serif !important; }
+
+@media(min-width:1201px){
+
+}   
+
+   @media(max-width:1200px){
+
+   }
+   @media(max-width:768px){
+
+   }
+
+
+       body {
+            font-family: 'Noto Sans Korean', sans-serif, Verdana, Dotum;
+        }
+
+        /* html, body, h2, ul, li, fieldset, menu, input, select{ */
+
+       
+
+        /* a {
+            text-decoration: none;
+            vertical-align: middle;
+        } */
+
+        /* h2 {
+            font-weight: normal;
+            display: block;
+        }
+
+        div {
+            display: block;
+        }
+
+        ul {
+            display: block; */
+           
+            /* list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px; */
+        /* } */
+
+        /* li {
+            list-style: none;
+            text-align: -webkit-match-parent;
+        }
+
+        p {
+            display: block;
+            -webkit-margin-before: 1em;
+            -webkit-margin-after: 1em;
+            -webkit-margin-start: 0px;
+            -webkit-margin-end: 0px;
+        } */
+/* 
+        caption {
+            display: none;
+        }
+
+        fieldset,
+        button {
+            border: 0 none;
+        } */
+
+        #faqWrap .search-wrap h4,
+        #faqWrap .search-wrap .keyword,
+        #faqWrap .search-wrap .select-category,
+        #faqWrap .search-wrap .btn-submit,
+        #faqWrap .search-wrap .best-keyword {
+            position: absolute;
+        }
+
+        /* select {
+            line-height: 18px;
+        } */
+
+        #contentWrap {
+            margin-top: 0;
+            min-height: 750px;
+            margin: 75px auto;
+        }
+
+        .bbsmenu {
+            width: 100%;
+            border-bottom: #5d5d5d solid 1px;
+            height: 59px;
+        }
+
+        .bbsmenu .menubox {
+            width: 1200px;
+            margin: auto;
+            position: relative;
+        }
+
+        .bbsmenu .menubox .treemenu {
+            float: left;
+            font-size: 14px;
+            color: #ababab;
+            line-height: 60px;
+        }
+
+        .bbsmenu .menubox .treemenu a {
+            padding: 0 11px 4px 0;
+            color: #ababab;
+            font-size: 14px;
+            line-height: inline-block;
+        }
+
+        .bbsmenu .menubox .treemenu span {
+            color: #ababab;
+            display: inline-block;
+            padding: 0 11px 0 18px;
+        }
+
+        .bbsmenu .menubox .treemenu span.on {
+            color: #555;
+        }
+
+        #content {
+            width: 1200px;
+            margin: 65px auto 0 auto;
+            position: relative;
+        }
+
+        h2.bbstit {
+            border-bottom: 0;
+            margin-bottom: 0;
+            padding-bottom: 40px;
+            font-size: 32px;
+            text-align: center;
+            color: #111111;
+            line-height: 35px;
+        }
+
+        h2.bbstit span {
+            font-size: 20px;
+            color: #d7d5d5;
+            font-weight: 100;
+        }
+
+        .bbs_menu_tab {
+            border-top: 1px solid #e5e5e5;
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        .bbs_menu_tab li {
+            display: inline-block;
+            zoom: 1;
+            width: 25%;
+        }
+
+        .bbs_menu_tab li a {
+            font-size: 14px;
+            color: #5d5d5d;
+            text-align: center;
+            line-height: 40px;
+        }
+
+        .bbs_menu_tab li.on {
+            border-top: #252527 solid 1px !important;
+            border-bottom: #252527 solid 1px !important;
+            background-color: #252527;
+        }
+
+        .bbs_menu_tab li.on a {
+            color: #fff;
+        }
+
+        .bbs-hd {
+            background-color: #f2f2f2;
+            border: 1px solid #e3e3e3;
+            padding: 20px 0 30px;
+        }
+
+        /* li.now {
+            background-color: #252527;
+            background-image: none;
+        }
+
+        li.now a {
+            color: #fff;
+        }
+
+        li {
+            display: inline-block;
+            width: 20%;
+            text-align: center;
+        }
+
+        li a {
+            text-decoration: none;
+            display: block;
+            color: #565656;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 30px;
+            padding: 5px 0 5px;
+        } */
+
+        #faqTable .tableContent a {
+            text-decoration: none;
+            color: #565656;
+        }
+
+        #faqTable {
+            border-top: 2px #222 solid;
+            margin-top: 30px;
+        }
+
+        .main_menu_box {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        #faqWrap #faqTable .tableContent th {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: #565656;
+            font-size: 12px;
+            border-bottom: solid 1px #e3e3e3;
+        }
+        #faqWrap #faqTable .tableContent td {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-bottom: solid 1px #e3e3e3;
+            color: #565656;
+            font-size: 13px;
+        }
+
+        #faqWrap #faqTable .tableContent td.Tcol1 {
+            width: 10%;
+        }
+
+        #faqWrap  #faqTable .tableContent td.Tcol2 {
+            width: 60%;
+            text-align: center;
+        }
+
+        #faqWrap  #faqTable .tableContent td.Tcol3 {
+            width: 30%;
+            text-align: center;
+        }
+        #faqWrap #faqTable .tableContent td a{
+             text-align: center; 
+        }
+
+        /* body {
+            margin: 0;
+            padding: 0;
+        } */
+
+        .main_menu_box {
+            font-size: 14px;
+            border-top: 1px solid #e3e3e3;
+            border-bottom: 1px solid #e3e3e3;
+            height: 42px;
+        }
+        .main_menu_box a{
+            color: #5d5d5d;
+        }
+        .text_bold {
+            font-weight: bold;
+        }
+
+        .hm_th3 {
+            background: #252527;
+            width: 33.3%;
+            height: 42px;
+            color: #fff;
+        }
+
+        .hm_th1 {
+            color: #5d5d5d;
+            width: 33.3%;
+            height: 42px;
+        }
+
+        /* .td11 {
+            background: #f2f2f2;
+            border: 1px solid #5d5d5d;
+            width: 33.3%;
+            height: 42px;
+        } */
+        .sub_vvisual2{
+            margin-bottom: 30px;
+        }
+       
+        #numBtn{
+            height: 38px;
+            width: 38px;
+            font-size: 13px;
+            text-align: center;
+            vertical-align: center;
+            margin-top: 24px;
+            background: #252527;
+            border:1px solid #c5c5c5;
+            color: #fff;
+            margin-left: 547px;
+        }

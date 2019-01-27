@@ -1,0 +1,292 @@
+@import url("common.css");
+
+
+#info .container {
+    margin: 0 auto;
+    border: 1px #aaa solid;
+    width: 500px;
+    height: 825px;
+}
+
+
+#info .head {
+    border-bottom: 1px solid #EEEEEE;
+    text-align: center;
+}
+
+#info .head p {
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 40px 0 0 0;
+}
+
+#info .head ul {
+    width: 420px;
+    margin: 40px 0 12px 40px;
+}
+
+#info .head li:nth-child(-n+3) {
+    margin-right: 65px;
+}
+
+#info .head li {
+    display: inline-block;
+    font-size: 16px;
+}
+
+#info .body {
+    margin: 0 40px 0 40px;
+    height: 675px;
+    position: relative;
+}
+
+#info .insert {
+    padding-top: 40px;
+}
+
+#info .insert .id input {
+    width: 131px;
+}
+
+#info .insert input {
+    height: 38px;
+    border: 1px solid #aaa;
+    font-size: 14px;
+    padding-left: 0px;
+}
+
+#info .insert .email {
+    margin-right: 13px;
+    background: url(https://www.iloom.com/img/front/account/@.png) no-repeat 2% 65%;
+    -webkit-appearance: none;
+}
+
+#info .insert select {
+    padding-left: 10px;
+    font-size: 14px;
+    height: 40px;
+    width: 100px;
+    background: url(https://www.iloom.com/img/front/account/selectDown.png) no-repeat 95% 50%;
+    -webkit-appearance: none;
+}
+
+#info .insert .id p {
+    cursor: pointer;
+    font-size: 14px;
+    color: #000;
+    border-bottom: 1px solid #000;
+    padding: 10px 2px 6px 0;
+}
+
+.frt {
+    float: right !important;
+
+}
+
+#info .insert .name input {
+    width: 403px;
+    margin-bottom: 10px;
+}
+
+#info .insert .pwd {
+    margin-top: 50px;
+}
+
+button,
+input {
+    overflow: visible;
+}
+
+#info .insert .name {
+    margin-top: 10px;
+}
+
+#info .insert .pwd div {
+    border: 1px solid #aaa;
+    margin-bottom: 0px;
+}
+
+#info .insert .pwd input {
+    width: 140px;
+    margin-bottom: 0px;
+    border: none;
+}
+
+
+#info .insert .pwd div>p {
+    float: right;
+    padding: 12px 5px 0 0;
+    color: #000;
+}
+
+#info .insert .pwd p {
+    font-size: 13px;
+    color: #aaa;
+}
+
+#info .insert .pwd div {
+    border: 1px solid #aaa;
+    margin-bottom: 10px;
+}
+
+#info .insert .pwd div {
+    border: 1px solid #aaa;
+    margin-bottom: 10px;
+}
+
+#info .insert select {
+    padding-left: 10px;
+    font-size: 14px;
+    height: 40px;
+    width: 100px;
+    background: url(https://www.iloom.com/img/front/account/selectDown.png) no-repeat 95% 50%;
+    -webkit-appearance: none;
+}
+
+#info .insert {
+    padding-top: 40px;
+}
+
+#info .body {
+    margin: 0 40px 0 40px;
+    height: 675px;
+    position: relative;
+}
+
+#info .insert .date ul {
+    display: inline;
+    /* margin-left: 15px; */
+}
+
+#info .insert .date li {
+    font-size: 13px;
+    display: inline;
+    margin-right: 5px;
+    vertical-align: middle;
+
+}
+
+ul,
+li,
+dl,
+dt,
+dd {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#info .insert .date .radio {
+    height: auto;
+}
+
+#info .button {
+    bottom: 40px;
+    /* position: absolute; */
+}
+
+#info .button button:nth-child(1) {
+    margin-right: 5px;
+}
+
+.btn_205 {
+    width: 205px;
+    height: 50px;
+    font-size: 16px;
+}
+
+.btn_s_gray {
+    border: none;
+    background-color: #63666A;
+    color: #FFF;
+}
+
+.btn_205 {
+    width: 205px;
+    height: 50px;
+    font-size: 16px;
+}
+
+.btn_s_red {
+    border: none;
+    background-color: #000;
+    color: #FFF;
+}
+
+#info .insert .phone {
+    margin-top: 20px;
+}
+
+#info .insert .phone input {
+    width: 125.5px;
+}
+
+#info .insert .phone select {
+    width: 125px;
+}
+
+#info .insert .phone p {
+    cursor: pointer;
+    font-size: 14px;
+    color: #000;
+    border-bottom: 1px solid #000;
+    padding: 10px 2px 6px 0;
+}
+
+#info .insert .date p {
+    margin: 50px 0 14px 0;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+}
+
+#info .insert .date .year {
+    width: 145px;
+}
+
+#info .insert .date .month {
+    width: 70px;
+}
+
+#info .insert .date .day {
+    width: 70px;
+}
+
+.address {
+    margin-top: 10px;
+}
+
+p #explain {
+    text-align:center;
+}
+
+#btnPosition {
+    position: absolute;
+ top: 598px;
+ right: 5px;
+
+}
+
+#btn1 {
+    position: absolute;
+    top: 280px;
+    right: -15px;
+}
+
+#btn2 {
+    position: absolute;
+    top: 280px;
+    right: 220px;
+}
+
+#btn4 {
+    position: absolute;
+    top: 590px;
+    right: -5px;
+}
+
+#btn5 {
+    position: absolute;
+    top: 600px;
+    right: 220px;
+}

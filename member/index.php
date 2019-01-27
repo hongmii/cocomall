@@ -1,0 +1,4 @@
+<?
+
+echo  $_SESSION['userId'];
+?>

@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* ??? */
+/* ???? */
+/* ????????? */
+/* Fonts */
+/* T */
+
+/*
+* Noto Sans KR (korean) http://www.google.com/fonts/earlyaccess */
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 100; src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 300; src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 400; src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 500; src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 700; src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans KR'; font-style: normal; font-weight: 900; src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format("opentype"); }
+
+/*  */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i');
+
+html, body { font-family: "Noto Sans KR", "Malgun Gothic", dotum, Helvetica, "Apple SD Gothic Neo", sans-serif !important; }
+
+@media(min-width:1201px){
+
+}   
+
+   @media(max-width:1200px){
+
+   }
+   @media(max-width:768px){
+
+   }
+
+   #readTable{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+#readTable table{
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 1200px;
+}
+#readTable .trTop{
+    border-top: 2px solid #222;
+}
+#readTable tr{
+    padding-top: 10px;
+        padding-bottom: 10px;
+        color: #565656;
+        font-size: 12px;
+        border-bottom: solid 1px #e3e3e3;
+}
+#readTable .tdContent{
+    height: 350px;
+}
+#readTable .colTitle{
+    width: 70%;
+    text-align: center;
+}
+#readTable .colView{
+    width: 5%;
+    text-align: center;
+}
+#readTable .colNum{
+    width: 5%;
+    text-align: center;
+}
+#readTable .colDate{
+    width: 20%;
+    text-align: center;
+}
+#readTable td{
+    padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: solid 1px #e3e3e3;
+        color: #565656;
+        font-size: 13px;
+        
+}
+.back_btn{
+    height: 30px;
+        width: 75px;
+        font-size: 13px;
+        text-align: center;
+        vertical-align: center;
+        margin-top: 24px;
+        background: #252527;
+        border:1px solid #c5c5c5;
+        margin-left: 1200px;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+}
+/* .back_btn a{
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+} */

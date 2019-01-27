@@ -1,0 +1,84 @@
+h1{
+    height: 30px;
+    font-family: NotoSansCJKkr-Medium;
+    font-size: 32px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 29px;
+    letter-spacing: 0px;
+      color: #111111;}
+  
+  h3{
+      width: 160px;
+    height: 15px;
+    font-family: NotoSansCJKkr-Medium;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 29px;
+    letter-spacing: 0px;
+      color: #d7d5d5;}
+      
+  table{
+      width:100%; 
+      border-collapse:collapse; 
+      table-layout:auto; 
+      vertical-align:top; 
+      margin-bottom:15px; 
+      border:1px solid #f2f2f2; 
+      margin:10px; width: 1200px}
+  
+  table thead th{
+      color: #565656;
+      color:#FFFFFF; 
+      border:1px solid #f2f2f2; 
+      border-collapse:collapse; 
+      text-align:center; 
+      table-layout:auto; 
+      vertical-align:middle;
+      margin: 10px; 
+      width: 1200px;
+      font-family: NotoSansCJKkr-Light;
+    font-size: 15px; } 
+  
+  .tda1{font-family: NotoSansCJKkr-Light; font-size: 12px; background: #f2f2f2; border: 1px solid #9e9e9e; width: 147px; height: 54px;}
+  .tda2{font-family: NotoSansCJKkr-Light; font-size: 12px; background: #f2f2f2; border: 1px solid #9e9e9e; width: 147px; height: 137px;}
+  .tda3{font-family: NotoSansCJKkr-Light; font-size: 12px; background: #f2f2f2; border: 1px solid #9e9e9e; width: 147px; height: 107px;}
+  .tda4{font-family: NotoSansCJKkr-Light; font-size: 12px; background: #f2f2f2; border: 1px solid #9e9e9e; width: 147px; height: 56px;}
+  .tda5{font-family: NotoSansCJKkr-Light; font-size: 12px; background: #f2f2f2; border: 1px solid #9e9e9e; width: 147px; height: 56px;}
+  .td11{background: #f2f2f2}
+  .th3{background: #252527}
+  .th1{color: #5d5d5d}
+  
+  
+  table thead th, table tbody td{
+      padding:5px; border-collapse:collapse; 
+      width: 1200px; 
+      height: 42px;
+      font-family: NotoSansCJKkr-Light;
+      font-size: 14px;}
+      
+  table tbody tr:nth-child(odd){
+      color:#666666; 
+      border: 1px solid #9e9e9e; 
+      width:790px;}
+  
+  table tbody tr:nth-child(even){
+      color:#666666; 
+      border: 1px solid #9e9e9e; 
+      width:790px}
+  /* .table_sign_up{width: 1200px} */
+  /* .table_sign_up th:nth-child(1){width:147px;} */ 
+  /* .table_sign_up th:nth-child(2){width:790px;} */
+  /* .table_sign_up input[type="text"] {width:380px;} */
+  
+  #btn1{
+      width: 122px; 
+      height: 50px; 
+      font-family: NotoSansCJKkr-Light;
+      font-size: 14px;}
+      
+  #btn2{width: 122px; 
+  height: 50px; 
+  background-color: #222222; 
+  color: white}

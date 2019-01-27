@@ -1,0 +1,139 @@
+/* login */
+/* login */
+/* login */
+/* login */
+/* login */
+/* login */
+/* login */
+/* login */
+/* login */
+/* login */
+
+
+.jn3_login {
+    margin: 0 auto;
+    padding-top: 55px;
+    padding-bottom: 150px;
+}
+
+.jn3_login .jn3_enter {
+    margin-top:20px;
+    text-align: left;
+}
+
+.jn3_login .jn3_head ul {
+    width: 420px;
+    margin: 30px 0 0 40px;
+}
+
+.jn3_login .jn3_body {
+    text-align: center;
+    margin: 0 40px 0 40px;
+}
+
+.jn3_login .jn3_all{
+    padding: 15px 0 30px 0;
+    height: 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.jn3_login .jn3_all ul {
+    float: right;
+}
+
+.jn3_login .jn3_head p {
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 40px 0 0 0;
+    text-align: center;
+}
+
+
+.jn3_login .jn3_head li {
+    cursor: pointer;
+    display: inline-block;
+    font-size:16px;
+    padding-bottom:10px;
+    margin-right:20px;
+}
+
+.jn3_login .jn3_container {
+    margin: 0 auto;
+    border: 1px #aaa solid;
+    width:500px;
+    height: 510px;
+}
+
+.jn3_login .jn3_body .jn3_joinBtn {
+    margin-top:10px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.jn3_btn_240 {
+    width: 240px;
+    height: 50px;
+    font-size: 16px;
+}
+
+.jn3_btn_s_gray {
+    border:none;
+    background-color: #333;
+    color: #FFF;
+}
+
+.jn3_login .jn3_enter input {
+    height: 38px;
+    border: 1px solid #aaa;
+    font-size: 14px;
+    padding-left: 4.5%;
+}
+
+
+.jn3_login .jn3_enter input {
+    width:95%;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+button, input {
+    overflow: visible;
+}
+
+ul, li{
+    padding: 0;
+    list-style: none;
+}
+
+.jn3_login .jn3_all li {
+    display: inline-block;
+    font-size:13px;
+    color: #AAAAAA;
+}
+.jn3_noto {
+    font-family: 'Noto Sans KR';
+    letter-spacing: -1px;
+}
+
+p {
+    display:block;
+}
+
+form {
+    display:block;
+}
+
+div {
+    display: block;
+}
+
+img {
+    border-style: none;
+}
